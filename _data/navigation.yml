@@ -1,0 +1,13 @@
+toc:
+  - title: Onboarding
+    subfolderitems:
+      - page: New Instructor Support Sessions
+        url: /onboarding/new_instructor_support_sessions
+  - title: Strategies
+    subfolderitems:
+      - page: Instructional Balance
+        url: /strategies/instructional_balance.html
+  - title: Inclusion
+    subfolderitems:
+      - page: Gender
+        url: /inclusion/gender.html

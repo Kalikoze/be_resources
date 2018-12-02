@@ -1,13 +1,31 @@
 toc:
-  - title: Onboarding
+  - title: Module Overviews
     subfolderitems:
-      - page: New Instructor Support Sessions
-        url: /onboarding/new_instructor_support_sessions
-  - title: Strategies
+      - page: Module 1
+        url: /overviews/m1
+      - page: Module 2
+        url: /overviews/m2
+      - page: Module 3
+        url: /overviews/m3
+      - page: Module 4
+        url: /overviews/m4
+  - title: Instructional Resources
     subfolderitems:
-      - page: Instructional Balance
-        url: /strategies/instructional_balance.html
+      - page: Lesson Plan Templates
+        url: /resources/templates.html
+      - page: Activities
+        url: /resources/activities
+      - page: Everyday Strategies
+        url: /resources/strategies
   - title: Inclusion
     subfolderitems:
       - page: Gender
         url: /inclusion/gender.html
+  - title: Turing Policy and Documents
+    subfolderitems:
+      - page: Student Handbook
+        url: https://docs.google.com/document/d/1mpYj9P8HAVDsxETDH-j6AYyvMSXRzen6WWLFiXN-6BQ/edit
+      - page: Staff Handbook
+        url: https://docs.google.com/document/d/16k9Tw7p-WzN7QZpZGma_ozThchmTGoftffFgKFCDKrM/edit
+      - page: Paths to Advancement
+        url: https://docs.google.com/document/d/1JIIK6086AVFVPliJtiuygTkr3HmNDqcfEYZAZI0txcE/edit

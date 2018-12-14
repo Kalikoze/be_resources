@@ -6,7 +6,7 @@ layout: page
 
 ## Functionality: 3
 
-  * **4** Student starts developing and describe the completion of a viable solution for iteration 4
+  * **4** Student starts developing and can describe the completion of a viable solution for iteration 4
   * **3** Student completes iteration 3
   * **2** Student completes the first 3 tasks
   * **1** Student completes the first 2 tasks

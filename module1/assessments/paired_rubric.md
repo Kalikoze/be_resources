@@ -3,8 +3,7 @@ title: Pairing Rubric
 layout: page
 ---
 
-
-## Functionality: 3
+## Functionality
 
   * **4** Student starts developing and can describe the completion of a viable solution for iteration 4
   * **3** Student completes iteration 3
@@ -13,10 +12,10 @@ layout: page
 
 ## Object Oriented Programming
 
-  * **4** - Student is able to complete iteration 3 with no prompting.
-  * **3** - Student is able to complete all tasks in iteration 3, but may need to be prompted for the third and fourth tasks.
-  * **2** - Student is able to complete the first two tasks, but may need prompting for the second.
-  * **1** - Student is not able to complete the first task without prompting.
+  * **4** - Student's initial design for iteration 3 is ideal and needs no prompting from instructor.
+  * **3** - Student designs an ideal solution for iteration 3, but may need several attempts and/or minimal prompting from instructor. Student demonstrates comfort with object interactions.
+  * **2** - Student is able to design a solution for the first two tasks, but may need prompting for the second. A Student may also struggle with object interaction.
+  * **1** - Student is not able to design a solution to the first task without prompting.
 
 ## TDD
 

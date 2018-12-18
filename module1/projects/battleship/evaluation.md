@@ -67,11 +67,11 @@ Students should have tests for the following. Recommend that instructor either s
   * `fired_upon?` returns false initially
   * `fired_upon?` returns false after `fire_upon`
   * `fire_upon` reduces health
-  * `render` return1 “.”
-  * `render` return1 “M”
-  * `render` return1 “H”
-  * `render` return1 “X”
-  * `render` return1 “S”
+  * `render` returns “.”
+  * `render` returns “M”
+  * `render` returns “H”
+  * `render` returns “X”
+  * `render` returns “S”
 * BoardTest
   * `cells` returns a Hash of 16 coordinate/Cell pairs
   * `valid_coordinate?`

@@ -5,11 +5,11 @@ layout: page
 
 ### [Projects](./projects)
 
-### [Assessments](./assessments)
+### [Independent Challenges](./independent_challenges)
+
+### [Paired Assessments](./paired_assessments)
 
 ### [CFUs](./cfus)
-
-### [Success in Mod1](./success)
 
 ### [Promotion](./promotion)
 

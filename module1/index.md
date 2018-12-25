@@ -17,10 +17,11 @@ Throughout Module 1, students will complete:
 
 Guidelines for promotion [can be found here.](./promotion)
 
-Page Wishlist:
+Page Wishlist/todo:
 
 * CFUs and Answers
 * Supporting Students
 * Pre-Module Checklist
 * End of Module Checklist
 * Success in Mod 1
+* Cross Check Project

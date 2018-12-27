@@ -7,6 +7,8 @@ layout: page
 
 Play is a two-week paired project where students will build an API and a front-end that will consume the API. They must be in separate repositories. This is a great opportunity for students to prove to themselves that they can learn and implement quickly. The app consumes a music API so that a user can create playlists and favorite songs. There is no auth for this project.
 
+[Project Spec](http://backend.turing.io/module4/projects/play/play)
+
 ## Learning Goals
 
 * Create an Express API given specified endpoints and response formats.

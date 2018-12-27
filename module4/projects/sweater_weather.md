@@ -7,6 +7,8 @@ layout: page
 
 Sweater Weather is a project that students started in Mod3, where they built a Rails API. It should have several endpoints for weather data as well as login/out, create account endpoints. In Mod4, students should solely be working on building out a front-end.
 
+[Project Spec](http://backend.turing.io/module4/projects/self_directed_fe/self_directed_fe_spec)
+
 ## Learning Goals
 
 * Create an vanilla JS or jQuery front-end application that makes network requests to an API

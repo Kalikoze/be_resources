@@ -19,3 +19,6 @@ Week 4 - 5: Group
 Week 6: Solo
 * [Take Home Challenge](./take_home)
 * We could use more resources here, particularly brownfield as we are noticing many grads get projects to fix bugs/add features.
+
+
+See sample completed projects from past students [here](https://github.com/turingschool/backend-completed-sample-projects/tree/master/4module). And - when you have an exemplar or `solid` project that highlights something, please add those to this completed project repo!

@@ -1,6 +1,11 @@
+---
+title: Graduation Requirements
+layout: page
+---
+
 ## Graduation Requirements
 
-It's important to read this document with students during the module kickoff and on day 1; it's common that students struggle to meet requirements and sometimes end up not graduating or graduating on time. 
+It's important to read this document with students during the module kickoff and on day 1; it's common that students struggle to meet requirements and sometimes end up not graduating or graduating on time.
 
 In order to graduate from Module 4, students must successfully complete **each** of the following:
 
@@ -10,13 +15,13 @@ In order to graduate from Module 4, students must successfully complete **each**
 
 ### Projects
 
-* Weeks 2-3: 
+* Weeks 2-3:
   - Pair - [Quantified Self](./projects/quantified_self/quantified_self_full_stack) or [Play](./projects/play/play)
   - This account for approximately 20% of their overall score
-* Weeks 4-5: 
+* Weeks 4-5:
   - Group - [Capstone](./capstone_project_overview)
   - This account for approximately 40% of their overall score
-* Week 6: 
+* Week 6:
   - Solo - [Take Home Challenge](./projects/take_home_challenge/take_home_challenge_spec)
   - This account for approximately 40% of their overall score
 

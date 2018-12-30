@@ -25,7 +25,8 @@ In order to graduate from Module 4, students must successfully complete **each**
   - Solo - [Take Home Challenge](./projects/take_home_challenge/take_home_challenge_spec)
   - This account for approximately 40% of their overall score
 
-### Assessment - [Mock Interview](./mock_interview_assessment)
+### Assessment 
+- [Mock Interview](https://github.com/turingschool/assessment_challenges/tree/master/_backend/4module_challenges/assessments/technical_communication_assessment)
 
 ### Career Development
 

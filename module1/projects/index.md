@@ -5,6 +5,6 @@ layout: page
 
 ### Projects
 
-* [Flashcards](./flashcards)
-* [Battleship](./battleship)
-* [Enigma](./enigma)
+* [Flashcards](/module1/projects/flashcards)
+* [Battleship](/module1/projects/battleship)
+* [Enigma](/module1/projects/enigma)

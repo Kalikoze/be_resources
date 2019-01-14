@@ -6,6 +6,7 @@ tags: ruby, object-oriented programming
 # Objects, Classes, and Instances
 
 ## Agenda
+
 - Warm Up, Learning Goals - 8 min
 - Classes in Ruby (through Partner Practice) - 18 min
 - Attributes (through Partner Practice) - 18 min

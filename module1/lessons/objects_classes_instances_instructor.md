@@ -24,6 +24,7 @@ POM ?
 
 - Run through creating all Fridge examples and Person partner practice so you are ready to live code and provide feedback, respectively.
 - Set up board
+- Students will need to take over airplay a couple times throughout class today - make sure they know how to do this.
 
 ## On Your Desk
 

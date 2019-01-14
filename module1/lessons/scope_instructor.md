@@ -21,6 +21,7 @@ POM
 
 - Print Exit Tickets
 - Make two sets of partners, for seating/each activity section
+- Have `repl.it` open and be prepared students to walk-through how to open and run a ruby file
 
 ## On Your Desk
 
@@ -75,62 +76,13 @@ Remember, the key to understanding how the local variable will behave is that **
 
 ## Exploration - Part 1
 
-Work through the following examples with a partner. For each example, copy and paste the code into a file rather than typing it to save time. Take a moment to examine the code individually, and then discuss with your partner what you think the output will be. Once you've had a moment to discuss, run the code and check your predictions. If your predictions were right or wrong, make sure to take a minute and try to make sense of and explain why the outcome was what it was.
+Work through the following examples with a partner. For each example, copy and paste the code into a repl.it file rather than typing it to save time. Take a moment to examine the code individually, and then discuss with your partner what you think the output will be. Once you've had a moment to discuss, run the code and check your predictions. If your predictions were right or wrong, make sure to take a minute and try to make sense of and explain why the outcome was what it was.
 
 Remember, what is important here is that you get a feel for where variables are available to you. You don't need to be able to quote the intricacies of scope verbatim. Some of these examples get weird and do things that you just shouldn't do... but we're going to do them and see what happens.
 
-#### Example 1
+_Examples live in student-facing document_
 
-```ruby
-  x = 10
-  puts x
-  puts y
-```
-
-#### Example 2
-
-```ruby
-  x = 10
-  puts x
-  puts y
-  y = 20
-```
-
-#### Example 3
-
-```ruby
-x = 10
-def say_hello
-  puts "Hello World!"
-end
-puts x
-```
-
-#### Example 4
-
-```ruby
-  def print_variable
-    x = 4
-    puts x
-  end
-
-  x = 2
-  print_variable
-```
-
-#### Example 5
-
-```ruby
-  def print_variable
-    x = 4
-  end
-
-  x = 2
-  print_variable
-  puts x
-```
-
-### Global Scope
+### Global Scope - Debrief
 
 Let's look at this code:
 
@@ -146,53 +98,9 @@ Every time you create a class, method, or block you create a new **scope**. Anyt
 
 ## Exploration - Part 2
 
-#### Example 4
+_Examples live in student-facing document_
 
-```ruby
-def print_variable
-  x = 10
-  puts x
-end
-print_variable
-puts x
-```
-
-#### Example 5
-
-```ruby
-def print_variable
-  x = 4
-  puts x
-end
-
-print_variable
-```
-
-#### Example 6
-
-```ruby
-  def print_variable
-    x = 4
-    puts x
-  end
-
-  x = 2
-  print_variable
-```
-
-#### Example 7
-
-```ruby
-  def print_variable
-    x = 4
-  end
-
-  x = 2
-  print_variable
-  puts x
-```
-
-### Method Scope
+### Method Scope - Debrief
 
 If we create a method, we are creating a new scope called a **method** scope:
 
@@ -226,51 +134,9 @@ x = 10
 
 ## Exploration - Part 3
 
-#### Example 8
+_Examples live in student-facing document_
 
-```ruby
-  def print_variable(x)
-    puts x
-  end
-
-  print_variable(4)
-```
-
-#### Example 9
-
-```ruby
-  def print_variable(x)
-    puts x
-  end
-
-  x = 4
-  print_variable(x)
-```
-
-#### Example 10
-
-```ruby
-  def print_variable(x)
-    puts x
-  end
-
-  print_variable(2)
-  puts x
-```
-
-#### Example 11
-
-```ruby
-  def print_variable(x)
-    x = 4
-    puts x
-  end
-
-  print_variable(2)
-  puts x
-```
-
-### Arguments
+### Arguments - Debrief
 
 An argument implicitly creates a local variable. So if you define an argument on a method, you are essentially creating a local variable.
 
@@ -288,76 +154,9 @@ Arguments allow us to pass data between scopes.
 
 ## Exploration - Part 4
 
-#### Example 12
+_Examples live in student-facing document_
 
-```ruby
-numbers = [1,2,3]
-total = 0
-numbers.each do |number|
-  total += number
-end
-
-p total
-```
-
-#### Example 13
-
-```ruby
-numbers = [1,2,3]
-total = 0
-numbers.each do |number|
-  pizza = "yummy!"
-  total += number
-end
-
-p pizza
-```
-
-#### Example 14
-
-```ruby
-numbers = [1,2,3]
-total = 0
-numbers.each do |number|
-  total += number
-end
-
-p number
-```
-
-#### Example 15
-
-```ruby
-numbers = [1,2,3]
-number = 0
-numbers.each do |number|
-  puts number
-end
-```
-
-#### Example 16
-
-```ruby
-numbers = [1,2,3]
-numbers.each do |number|
-  number = 0
-  puts number
-end
-```
-
-#### Example 17
-
-```ruby
-numbers = [1,2,3]
-def number
-  0
-end
-numbers.each do |number|
-  puts number
-end
-```
-
-### Block Scope
+### Block Scope Debrief
 
 **Block Scope** refers to what is available inside a block (everything between the `do` and `end`). Remember what we've been saying: **local variables** are local to wherever you define them. But blocks are special. Blocks *DO* allow you to access variables created outside of them, however, they work the same as methods in that any local variable created *inside* the block is local to the block. This applies to the block variable as well. You can think of a block variable like an argument to the block.
 
@@ -385,27 +184,27 @@ In the previous activity, we learned that methods create a scope called the **me
 Let's revisit our example from earlier. Change `scope.rb` to the following, run the file, and examine the error.
 
 ```ruby
-  x = 10
-  puts x
-  puts y
+x = 10
+puts x
+puts y
 ```
 
 The error is undefined local variable *or* method `y`. From Ruby's perspective looking up a variable or looking up a method are very similar things. Before we defined a local variable to fix this problem. Let's define a method:
 
 ```ruby
-  def y
-    20
-  end
-  puts y
+def y
+  20
+end
+puts y
 ```
 
 But just like with local variables, methods need to have been defined in the scope before you call them:
 
 ```ruby
-  puts y
-  def y
-    20
-  end
+puts y
+def y
+  20
+end
 ```
 
 This will throw an error because when we call `y` on line 1, `y` hasn't been defined yet.
@@ -414,15 +213,15 @@ Methods can call other methods in the same scope:
 
 
 ```ruby
-  def print_variable
-    puts y
-  end
+def print_variable
+  puts y
+end
 
-  def y
-    20
-  end
+def y
+  20
+end
 
-  print_variable
+print_variable
 ```
 
 This is how calling a method is different than calling a local variable. The above example works, but if we change `y` to a local variable:

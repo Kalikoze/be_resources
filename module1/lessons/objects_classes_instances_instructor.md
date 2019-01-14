@@ -6,7 +6,19 @@ tags: ruby, object-oriented programming
 # Objects, Classes, and Instances
 
 ## Agenda
-
+- Warm Up, Learning Goals - 8 min
+- Classes in Ruby (through Partner Practice) - 18 min
+- Attributes (through Partner Practice) - 18 min
+POM
+- Code Share on Person Class - 6 min
+- Accessing Attributes (through Partner Practice) - 12 min
+- Other Methods (through Partner Practice) - 16 min
+POM
+- Object Interaction - 10 min
+- Solo Practice - 20 min
+POM ?
+- Share out code from Solo Practice
+- Wrap Up questions in pairs
 
 ## Instructor Prep
 
@@ -26,7 +38,6 @@ tags: ruby, object-oriented programming
 * Provide access to state using `attr_reader`s
 * Use methods to provide behaviors to instances of a class
 * Create a new instance of a class and call methods on that instance
-
 
 ## Vocabulary
 

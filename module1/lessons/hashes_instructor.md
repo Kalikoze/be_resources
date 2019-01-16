@@ -9,14 +9,17 @@ tags: ruby, hashes, data structures, key, value
 - Intro - Working, Creating Hashes - 7 min
 - Explore - 10 min
 - Accessing Hash/Explore Debrief - 8 min 
+
 POM
 - CFU - 10 min
 - Symbols - 10 min
 - Solidify - 10 min
+
 POM
 - Debrief Symbols/Solidify - 10 min
 - CFU - 10 min
 - Partner Activity - 15 min
+
 POM
 - Debrief Partner Activity/Address misconceptions - 15 min
 - Exit Ticket - 10 min

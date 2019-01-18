@@ -49,7 +49,7 @@ The week 2 challenge is an intro to Object Oriented Programming. It will require
 The week 3 challenge will require students to build three classes that interact. It will also involve a more complex enumeration problem that can't be solved with a single enumerable. Students will also need to access a Hash.
 
 * [World Cup](https://github.com/turingschool-examples/world_cup)(Public)
-* [Market Street Apartments](https://github.com/turingschool/market_st_apartments)
+* [Market Street Apartments](https://github.com/turingschool/market_st_apartments) - link for students [here](https://github.com/turingschool-examples/market_st_apartments_1901)
 * [TV Network](https://github.com/turingschool/tv_network)
 
 ## Week 4

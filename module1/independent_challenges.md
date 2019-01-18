@@ -41,7 +41,7 @@ These challenges focus on a single problem or task and typically require one cla
 The week 2 challenge is an intro to Object Oriented Programming. It will require students to build two classes that interact, as well as use an enumerable.
 
 * [Potluck](https://github.com/turingschool-examples/potluck)(Public)
-* [Real Estate](https://github.com/turingschool/real_estate)
+* [Real Estate](https://github.com/turingschool/real_estate) - link for students [here](https://github.com/turingschool-examples/real_estate_1901)
 * [OpenMic](https://github.com/turingschool/open_mic)  
 
 ## Week 3

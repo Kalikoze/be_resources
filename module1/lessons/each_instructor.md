@@ -6,7 +6,21 @@ layout: page
 # Each
 
 ## Agenda
+- Warm Up - 5 min 
+- Scalability (thru T&T) - 5 min
+- Intro Each - 4 min 
+- Annotation - 10 min
 
+POM
+- When to use each - 3 min
+- Transform (thru T&T) - 12 min
+- STAMP Return Value - 3 min
+- Get a SubSet (thru TIP-CC) - 12 min 
+
+POM 
+- with_index - 5 min
+- Practice - 15 min
+- Share Out - 10 min 
 
 ## Instructor Prep
 - Print out 1 paper per person for annotation activity
@@ -27,21 +41,7 @@ layout: page
 * Block Variable
 
 # Scalability
-Let's pretend that we've just graduated from Turing, and that we've landed our first sweet job at Hogwarts School of Witchcraft and Wizardry. Let's say that we've got an array of student names:
-
-```ruby
-students = ["Katie Bell", "Neville Longbottom", "Luna Lovegood"]
-```
-
-What if we wanted to print out all of the items in this array? If we didn't know what loops were we might do something like this.
-
-```ruby
-puts students[0]
-puts students[1]
-puts students[2]
-```
-
-And that works, right?
+Instructor talks through content in student resource.
 
 ### Turn & Talk
 What are some of the problems inherent to this approach?
@@ -52,20 +52,7 @@ It wasn't too terrible to do with just three students in this array, but what if
 When we have a solution that works for a small number of items, but it doesn't work for a large number of items, we say that _it doesn't scale_. We want to design solution that are dynamic, meaning they can work for various inputs.
 
 # \#each
-
-A **Collection** in Ruby is an Array or Hash. For now, we will be focusing on Arrays.
-
-**Iterating** is doing something several times.
-
-`each` is a method that iterates over a collection. This means that `each` allows us to do something for every element of an array. An **Iteration** is a single pass over an element. We can use `each` to print all of our Hogwarts students like this:
-
-```ruby
-students = ["Katie Bell", "Neville Longbottom", "Luna Lovegood"]
-
-students.each do |student_name|
-  puts student_name
-end
-```
+Instructor talks through content in student resource.
 
 ### Annotation Activity
 - Students will work with partner to follow annotation directions (https://docs.google.com/document/d/1P7bUcnpRtCcXYiDc6TgiasUY1ajA17moU6ZmqcJxN8Q/edit)
@@ -90,27 +77,10 @@ end
 ```
 
 # When to use \#each
-Aside from printing all of the elements in a list, there are **a lot** of situations where we would need to use \#each.  You can use \#each to:
-- transform elements within a collection,
-- transform the collection itself into a new collection,
-- locate specific elements from a collection,
-- or create something new with some or all of the elements in a collection.  
-The possibilities are really endless, which makes \#each (and iteration in general) one of the most useful tools in a developers skillset.
+Instructor talks through content in student resource.
 
 ## Transform Every Element
-Often, you will have a collection of objects that you need to transform, or map, into a new collection.  For example, if you had the array `['megan', 'brian', 'sal']` and you needed the array `['Megan', 'Brian', 'Sal']` you could use \#each to accomplish this goal.  
-
-Have this open in a file:
-
-```ruby
-names = ['megan', 'brian', 'sal']
-
-names.each do |name|
-  name.capitalize
-end
-
-puts names
-```
+Instructor talks through content in student resource.
 
 ### Turn & Talk
 - What will print to the console for `names`?
@@ -141,23 +111,7 @@ puts capitalized_names
 Since we know that **each returns the original array** we need to create some placeholder container to store our _new_ collection. In Mod 1, you may hear this placeholder called the accumulator or the aggregator. The thing to remember is that when you are using \#each, you will almost always use some sort of placeholder to preserve the result that you want - in this case, the names capitalized.  Without the placeholder, you will not be able to access the information that you want!
 
 ## Get a Subset of a Collection
-In the example above, we are using \#each to create a new array that is the same length as the original array - we are doing something to and storing _each and every_ element in the array. But what if we wanted to return only a subsection of a collection? We can still use \#each!
-
-
-```ruby
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-
-odd_numbers = []
-
-numbers.each do |number|
-  if number.odd?
-    odd_numbers << number
-  end
-end
-
-puts odd_numbers
-
-```
+Instructor talks through content in student resource.
 
 ### Think, Ink, Cold Call
 What do you think will be printed to the terminal when you this file is executed?
@@ -185,37 +139,8 @@ Unlike our previous examples, here we can see how \#each can be used to create s
 The examples we have outlined are by no means a complete list of the ways that \#each can be used; they are only illustrations of the types of things you can accomplish with \#each.  As you grow your skills as a programmer, you will find more and more complex uses for \#each and iteration in general.
 
 ## with_index
-Often, when iterating over a collection, it will be helpful to know the index of each element as you iterate. The index tells us which number iteration is currently running. Indexing starts at 0, so the first iteration is index 0, the second iteration is index 1, etc.
+Instructor talks through content in student resource.
 
-In order to access the index, we can chain the `.with_index` method onto the each and add a second block variable. It's general form looks like:
-
-```ruby
-collection.each.with_index do |element, index|
-
-end
-```
-
-On the first iteration, the value of index will be 0, on the second it will be 1, and so on. Notice that in order to use multiple block variables we separate them with a comma. This is true for any block that takes multiple variables.
-
-To see this in action, lets say we have a collection of numbers, and we want to double only the numbers at an odd index.  It would look something like this:
-
-```ruby
-numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-
-doubled = []
-
-numbers.each.with_index do |number, index|
-  if index.odd?
-    doubled << number * 2
-  else
-    doubled << number
-  end
-end
-
-p doubled
-```
-
-Pretty cool, right? Well, it may not seem _that_ great to you know, but \#with_index **will** come in handy at some point, so it is a good tool to keep in mind!
 
 # Practice
 Now it's your turn to practice.

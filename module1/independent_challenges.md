@@ -67,6 +67,6 @@ The week 5 and 6 challenges are a test of a student's knowledge of OOP and Ruby 
 The week 5 challenge will be a practice for the final in week 6.
 
 * [Reunion](https://github.com/turingschool-examples/reunion)(Public)
-* [Market](https://github.com/turingschool-examples/market)
+* [Market](https://github.com/turingschool/market)
 * [Pantry](https://github.com/turingschool-examples/pantry)
 * [Museo](https://github.com/turingschool/museo)

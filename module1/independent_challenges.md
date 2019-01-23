@@ -69,4 +69,4 @@ The week 5 challenge will be a practice for the final in week 6.
 * [Reunion](https://github.com/turingschool-examples/reunion)(Public)
 * [Market](https://github.com/turingschool-examples/market)
 * [Pantry](https://github.com/turingschool-examples/pantry)
-* [Museo](https://github.com/turingschool-examples/museo)
+* [Museo](https://github.com/turingschool/museo)

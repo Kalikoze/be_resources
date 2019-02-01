@@ -50,7 +50,7 @@ POM
 
 Have you ever written code in one place, but have had trouble accessing it? What are some ways to solve those problems?
 
-# Into
+# Intro
 
 **Scope** is what you have access to and where you have access to it.
 

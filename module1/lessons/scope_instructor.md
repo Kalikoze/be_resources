@@ -322,6 +322,35 @@ Notice that unlike local variables and methods, when an instance variable is out
   * Class Scope
   * Global Scope
 
+
+Annotate the following file as each variable and method relates to SCOPE.
+
+```ruby
+class Dog
+  def initialize(name)
+    @name = name
+  end
+
+  def say_hello
+    puts"Roof, my name is #{@name}"
+  end
+end
+
+dog = Dog.new("Sodie")
+dog.say_hello
+
+say_hello
+
+def print_dog
+  puts dog
+end
+
+def say_hi_to_dog
+  dog.say_hello
+end
+```
+
+
 ## Activity
 
 Clone [this repository](https://github.com/turingschool-examples/scope_exercise). Follow the instructions in the README.

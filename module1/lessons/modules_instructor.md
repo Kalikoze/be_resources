@@ -1,7 +1,10 @@
-## Learning Goals
+## Instructor Prep 
+- Print out worksheet for each student
+- Have code ready in your text editor for Takes 1 and 2
 
-* understand that modules fill various roles in Ruby.
-* use a module to create a mixin to be DRY (Don't Repeat Yourself)
+## Learning Goals
+* understand the role the Modules play in Ruby
+* use a module to create a mixin to make our code DRYer (Don't Repeat Yourself)
 
 ## Vocabulary  
 * Module

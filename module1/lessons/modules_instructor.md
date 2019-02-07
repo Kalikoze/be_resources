@@ -177,10 +177,9 @@ grub.delivery
 
 - What just happened there?
 - Why did this work?
-_ Based on this example, how would you explain the way modules work?
+- Based on this example, how would you explain the way modules work?
 
 ### Key Points
-Instructor - stamp these key points, make sure students understand - these are the things that are true!!!
 
 - Once a module is included in a class, any object created from that class can call the method in the module (we just treat it as if the `confirmation` and `review` methods were part of our other classes, where you call the methods on an instance of an class.)
 - Many classes can include the same module

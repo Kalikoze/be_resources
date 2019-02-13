@@ -58,7 +58,7 @@ The week 3 challenge will require students to build three classes that interact.
 
 * [Boat Rental](https://github.com/turingschool-examples/boat_rental)(Public)
 * [Museum](https://github.com/turingschool-examples/museum)
-* [Denver Public Library](https://github.com/turingschool/denver_public_library)
+* [Denver Public Library](https://github.com/turingschool/denver_public_library) - line for students [here](https://github.com/turingschool-examples/dpl_1901)
 
 ## Weeks 5 and 6
 

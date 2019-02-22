@@ -41,7 +41,7 @@ These challenges focus on a single problem or task and typically require one cla
 The week 2 challenge is an intro to Object Oriented Programming. It will require students to build two classes that interact, as well as use an enumerable.
 
 * [Potluck](https://github.com/turingschool-examples/potluck)(Public)
-* [Real Estate](https://github.com/turingschool/real_estate) - link for students [here](https://github.com/turingschool-examples/real_estate_1901)
+* [Real Estate](https://github.com/turingschool/real_estate) - 1901 link for students [here](https://github.com/turingschool-examples/real_estate_1901)
 * [OpenMic](https://github.com/turingschool/open_mic)  
 
 ## Week 3
@@ -49,7 +49,7 @@ The week 2 challenge is an intro to Object Oriented Programming. It will require
 The week 3 challenge will require students to build three classes that interact. It will also involve a more complex enumeration problem that can't be solved with a single enumerable. Students will also need to access a Hash.
 
 * [World Cup](https://github.com/turingschool-examples/world_cup)(Public)
-* [Market Street Apartments](https://github.com/turingschool/market_st_apartments) - link for students [here](https://github.com/turingschool-examples/market_st_apartments_1901)
+* [Market Street Apartments](https://github.com/turingschool/market_st_apartments) - 1901 link for students [here](https://github.com/turingschool-examples/market_st_apartments_1901)
 * [TV Network](https://github.com/turingschool/tv_network)
 
 ## Week 4
@@ -58,7 +58,7 @@ The week 3 challenge will require students to build three classes that interact.
 
 * [Boat Rental](https://github.com/turingschool-examples/boat_rental)(Public)
 * [Museum](https://github.com/turingschool-examples/museum)
-* [Denver Public Library](https://github.com/turingschool/denver_public_library)
+* [Denver Public Library](https://github.com/turingschool/denver_public_library) - 1901 link for students [here](https://github.com/turingschool-examples/dpl_1901)
 
 ## Weeks 5 and 6
 
@@ -67,6 +67,6 @@ The week 5 and 6 challenges are a test of a student's knowledge of OOP and Ruby 
 The week 5 challenge will be a practice for the final in week 6.
 
 * [Reunion](https://github.com/turingschool-examples/reunion)(Public)
-* [Market](https://github.com/turingschool/market)
+* [Market](https://github.com/turingschool/market) - 1901 link for students [here](https://github.com/turingschool-examples/market_1901)
 * [Pantry](https://github.com/turingschool-examples/pantry)
 * [Museo](https://github.com/turingschool/museo)

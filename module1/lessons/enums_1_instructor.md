@@ -69,7 +69,8 @@ Repeat for each enumerable.
 Students will be given 5 minutes to answer the Final CFU questions on paper.
 When time is up, direct students to switch CFU answers, and compare with each other. Give them 3 minutes to discuss. Then, take the last 2 minutes to make sure everyone walks away with the correct answers. They don't need to submit - the two rounds of feedback are just to reinforce.
 
-* What do map, find, and select do? What do they return?
-* What do max, max_by, their opposites, and sort_by return?
+https://docs.google.com/document/d/1KpW_A5h6VbYrwegIHUdfXBgPUbsOx3P2Kf1CgkiWz9Y/edit
+
+* What do map, find, and find_all do? What do they return?
 * What makes an enumerable preferable to each?
 * What does the `?` on the end of a method indicate?  

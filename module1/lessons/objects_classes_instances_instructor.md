@@ -3,6 +3,7 @@ title: Objects, Classes, and Instances
 length: 180
 tags: ruby, object-oriented programming
 ---
+
 # Objects, Classes, and Instances
 
 ## Agenda
@@ -11,13 +12,16 @@ tags: ruby, object-oriented programming
 - Classes in Ruby (through Partner Practice) - 18 min
 - Attributes (through Partner Practice) - 18 min
 POM
+
 - Code Share on Person Class - 6 min
 - Accessing Attributes (through Partner Practice) - 12 min
 - Other Methods (through Partner Practice) - 16 min
 POM
+
 - Object Interaction - 10 min
 - Solo Practice - 20 min
 POM ?
+
 - Share out code from Solo Practice
 - Wrap Up questions in pairs
 
@@ -70,37 +74,9 @@ For example:
 
 ### Overview
 
-In programming, a **Class** is something that models:
-
-1. State
-2. Behavior
-
-State is what something *is*. Behavior is what something *does*. In the previous activity, our *Class* was refrigerator. We modeled the state of a refrigerator by defining the attributes "brand", "color", and "temperature". We modeled the behavior of a refrigerator by defining the methods "add food", "remove food", and "change temperature".
-
-An **Instance** or **Object** is a concrete representation of a Class. In the previous activity, "staff refrigerator" is a specific Instance of the Fridge Class. We can also say that "staff refrigerator" is a Fridge Object. Do not get confused by the terms Instance and Object. They mean the exact same thing (for now).
-
-Think of a **Class** like a blueprint for a house and an **Instance** as an actual house. The blueprint is a just an idea of how the house should be built, and the house is the realization of that blueprint.
 
 ### Syntax
 
-The syntax for defining a class is as follows:
-
-```ruby
-class NameOfClass
-end
-```
-
-So, for example, if we wanted to create a Dog class, we could do the following:
-
-
-```ruby
-class Dog
-end
-```
-
-Notice the use of `UpperCamelCase` for the class name.
-
-Generally we will want to put more information in our classes to make them useful to us, but those two lines (even with no other information) will create a class.
 
 ### Example - Class/Instance Syntax
 
@@ -127,9 +103,6 @@ require 'pry'; binding.pry
 
 **EXPLAIN:** "fridge_1 is a new variable we are declaring, and assigning it to an instance of Fridge. We will see this come to life in a moment."
 
-We can run the `runner.rb` file from the command line if we are inside of our `objects_classes_and_instances` directory by typing the following: `ruby runner.rb`.
-
-When we run this file, our terminal should open up a pry session when it reads the line: `binding.pry`. Inside of that pry session, we'll type `fridge_1` and hit return to see what the variable `fridge_1` is holding. Then, we'll type `fridge_2` to see what that variable is holding.
 
 ## Turn & Talk
 
@@ -146,19 +119,11 @@ With your pair, create an `objects_classes_and_instances` directory, then define
 
 ## Attributes in Ruby Classes
 
-Above we created a Fridge class and then also created specific instances of the fridge class that we held in the variables `fridge_1` and `fridge_2`. Generally the objects we create will come from the same template, but each will be a unique object.
-
-Think about the refrigerators here in the Turing basement.
-* M1 BE refrigerator, M1 FE refrigerator, Staff refrigerator
-
-Each one is different in important ways. For example, each one has its own:
-* brand, color, temperature
-
-We can model these attributes in code by using *instance variables*. Generally we define these instance variables in a special method called `initialize` that is run every time a new instance of a class is created.
-
 ### Initialize
 
-When we run `Fridge.new` in Ruby, what actually happens? We can see from the last example that different Fridge objects (or instances) are created. Other than that, nothing happens. If we want some specific code to run when we first create a new Fridge, we need to tell Ruby what should happen when a new Fridge instance (or object) is created. We do this with the initialize method.
+When we run `Fridge.new` in Ruby, what actually happens? 
+
+We can see from the last example that different Fridge objects (or instances) are created. Other than that, nothing happens. If we want some specific code to run when we first create a new Fridge, we need to tell Ruby what should happen when a new Fridge instance (or object) is created. We do this with the initialize method.
 
 ```ruby
 class Fridge
@@ -217,8 +182,6 @@ require 'pry'; binding.pry
 
 When we include the arguments to `.new`, Ruby will pass those arguments to the initialize method for us. Note that the arguments that we pass to `new` are order dependent. So, in the first example when we pass `"Maytag"` as the first argument, we are saying that the brand of the Fridge we are creating is Maytag. When we pass an empty string (`""`) the second time we call `new` we are saying that the Fridge that we created doesn't have a name brand.
 
-What we have just done is a very common pattern. We gave our initialize method some arguments and we saved those arguments to instance variables. While this is a strong pattern, it is not a rule. For instance, you may want to set a variable in your initialize that has a default value that isn't set using an argument:
-
 ```ruby
 class Fridge
   def initialize(brand, color, temperature)
@@ -235,20 +198,6 @@ end
 With your pair, give your Person class some attributes that are set using arguments to initialize and some attributes that have default values. Make some instances of your Person class, and run you runner file.
 
 ## Accessing Attributes
-
-That's all well and good, but what can we do with all these attributes that we've created? They're no good to us if we can't use them.
-
-Generally, the way that we access information stored in a class is by *sending it messages* or *calling methods* on that class. We do that using `.` syntax.
-
-Let's run our runner file again and check to see what this returns:
-
-```ruby
-fridge_1.brand
-```
-
-We should get an error that says something about the method `.brand` not existing (a `no method` error). The syntax here is correct, but we haven't told our `Fridge` class how to respond when it receives the message `brand`.
-
-We can do that with methods like the ones we've seen before, but attributes stored as instance variables are special. We can tell our class to provide access to them using attribute readers. Let's do that now.
 
 ### Example - Accessing Attributes
 
@@ -312,10 +261,6 @@ An important thing to remember is that although there is a special syntax for cr
 - Practice explaining to your partner what is happening _under the hood_ with the `attr_reader`s
 
 ## Other Methods
-
-We can also create other methods that will allow us to send other messages to our Fridge class. For example, let's say we wanted to add eggs to our Fridge. We currently have a way to see what the `contents` of the Fridge are, but we don't have any way to _add_ to it. Let's do that by creating a method called `add_food` that will add a food to the `contents` array.
-
-Define an `add_food` method that allows you to put foods in your fridge. Note that we can access the `@contents` instance variable from anywhere within the class just by using the `@` symbol.
 
 ```ruby
 class Fridge
@@ -409,17 +354,4 @@ Update your runner file to create a new library, add some books to the library, 
 
 ### Check for Understanding
 
-With your partner, answer the questions below.
-
-* Classes, instances, objects
-    * What is a Class?
-    * What is an Instance?
-    * What is an Object?
-    * How are these three things alike/different?
-    * What code do you have to write to create a Class? What code do you have to write to create an instance?
-    * What happens when a new instance is created?
-* Attributes & Methods
-    * What is an attribute? How can we recognize an attribute?
-    * What is a method? How do we write methods?
-    * What are parameters? How do we add parameters to methods?
-    * What is a return value? How do you know what the return value of a method is? Do all methods have return values?
+In student resource

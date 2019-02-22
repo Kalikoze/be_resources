@@ -6,18 +6,19 @@ tags: ruby, hashes, data structures, key, value
 ## Agenda
 
 - Warm Up - 5 min
-- Intro - Working, Creating Hashes - 7 min
-- Explore - 10 min
-- Accessing Hash/Explore Debrief - 8 min 
+- Intro - Working, Creating Hashes - 5 min
+- Array vs Hash - 5 min
+- Explore Hash Syntax - 8 min
+- Accessing Hash/Explore Debrief - 6 min 
 
 POM
-- CFU - 10 min
-- Symbols - 10 min
+- CFU with PollEverywhere - 10 min
+- Symbols - 5 min
 - Solidify - 10 min
 
 POM
 - Debrief Symbols/Solidify - 10 min
-- CFU - 10 min
+- Symbol CFU - 10 min
 - Partner Activity - 15 min
 
 POM
@@ -26,7 +27,7 @@ POM
 
 ## Instructor Prep
 
-- Print exit ticket
+- Print exit ticket and Venn Diagram (separate so students can keep Venn Diagram in notebook if they'd like, we collect Exit Tickets) found here: https://docs.google.com/document/d/1zk0tfe4TlyYtpvrctXwG9T031_vs1Mi1799-f2s6LUk/edit
 - Assign partners and inform students
 
 ## On Your Desk
@@ -65,22 +66,6 @@ Some languages call their Hashes *dictionaries* for this reason -- you look up a
 
 ## Working with a Hash
 
-- A hash is enclosed in curly braces { }, key/value pairs are separated by commas, and keys and values are separated by either a rocket or a colon.
-- Each key in a hash must be unique
-	- If you attempt to have duplicate keys when you first create a hash, you will get a `warning: key :key_name is duplicated and overwritten on line X` error
-	- If you try to add a new key/value pair using a key that already exists, that new key/value pair will overwrite the previous one - dangerous.
-- Keys and values can be any type of object:
-	```
-	example = {	"string_value": "this value is a string",
-					"array_value": ["this", "value", "is", "an", "array"],
-					3: "this values' key is an integer",
-					"boolean_value": true
-				}
-	```
-- Values can be accessed with bracket notation:
-	- given ``` shih_tzu = { "name"=> "Sodie" } ```
-	- ``` shih_tzu["name"]``` _returns_```"Sodie" ```
-
 Let's say we are making a list of items to pack for a trip. Why is a hash a good choice for storing this information?
 
 **THINK ABOUT IT**: With your partner, brainstorm another collection of data that could be stored in a hash. Be able to justify why a hash is a better option than an array.
@@ -89,34 +74,13 @@ Let's say we are making a list of items to pack for a trip. Why is a hash a good
 
 ### Creating a Hash
 
-```ruby
-new_hash = {}
-```
+Quickly talk through syntax.
 
-_or_
+### Array vs. Hash 
 
-```ruby
-new_hash = Hash.new
-```
+With your partner, complete your Venn Diagram for Arrays and Hashes. 
 
-When using the `Hash.new`, syntax, we're able to pass a default hash value in as a parameter to `new`.
-
-```ruby
-new_hash = Hash.new(0)
-```
-
-In the above declaration, the default value of any key created for `new_hash` has a default value of 0. Keep this in mind for the future - you may find it helpful down the road🍕.
-
-We can also create a hash with some initial key/value pairs. Let's use this syntax to create our stew hash:
-
-```ruby
-suitcase = {
-  "socks" => 4,
-  "jeans" => 1,
-}
-```
-
-The `=>` is called a hash rocket.
+A Venn Diagram is 2 (or more) circles that represent each topic/concept, overlapping. The purpose is to allow us to compare and contrast. Inside the overlapping portion, we can write in things that arrays and hashes share. Where they don't overlap, we can write the things that make them different from each other. For this exercise, we should also have students list use-cases. 
 
 ### Explore
 
@@ -138,32 +102,11 @@ Debrief what students found (answers in student-facing document for their refere
 
 #### Check for Understanding
 
-Have the students write their answers in notebooks:
-
-* What is a Hash?
-* What type of Objects can Hashes hold?
-* How can you create a Hash?
-* How can you add/change/remove a key/value pair?
+Either have students write in their notebook OR use PollEverywhere! login: amy.elizabeth.holt@gmail.com password: complete. Survey is titled Hashes CFU. Make sure to practice how to activate poll.
 
 ## Symbols
 
-In Ruby, symbols are basically Strings that can't change. You can recognize a symbol because it starts with a colon `:`. All of the following are symbols:
-
-```ruby
-:name   
-:symbols_can_have_underscores
-:"symbols can be in quotes"
-```
-
-Symbols are more efficient than strings because Ruby creates only one Object for each unique symbol. Two strings with the same value are still two separate Objects. This is illustrated in the following pry session:
-
-`code snippet in student-facing document`
-
-Symbols are also faster than strings because Ruby can determine if two symbols are equal by checking their object_id. Strings have to be compared character by character.
-
-So if symbols are faster and more efficient than strings, why would we use strings? Because a string's value can change, making them useful as variables. Strings are *mutable*, whereas symbols are *immutable*.
-
-Don't worry if this doesn't quite make sense yet. The important thing to understand is that strings are useful as variables. Symbols are useful as names. **This makes symbols perfect for keys in hashes.**
+Talk through content in student-facing document. 
 
 ## Working with Hashes and Symbols
 
@@ -206,12 +149,7 @@ Debrief - use this as an opportunity to illicit participation from quieter stude
 
 #### Check for Understanding
 
-Have the students write their answers in notebooks:
-
-* What is a symbol? How is it different than a String?
-* What is the advantage of using a String? What is the advantage of using a Symbol? Which is better for Hashes?
-* What is different about using symbols in Hashes?
-* Describe some useful Hash methods. Where can you look to find more Hash methods?
+Have the students write their answers in notebooks.
 
 ## Pair Exercise
 
@@ -239,7 +177,6 @@ Details in student-facing document for early finishers
 ## Exit Ticket
 
 - In your own words, define a hash
-- Venn Diagram of arrays and hashes
 - Write a hash with 3 key/value pairs (assign to a new variable)
 - Access the value of the first key/value pair
 - Show how you would add a new key/value pair

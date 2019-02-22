@@ -13,7 +13,7 @@ layout: page
 ## Object Oriented Programming
 
   * **4** - Student's initial design for iteration 3 is ideal and needs no prompting from instructor.
-  * **3** - Student designs an ideal solution for iteration 3 with minimal prompting from instructor. Student demonstrates comfort with object interactions.
+  * **3** - Student designs a solution for iteration 3 with minimal prompting from instructor. Student demonstrates comfort with object interactions.
   * **2** - Student is able to design a solution for iteration 3, but may need several attempts or significant prompting from an instructor; or student may have some struggle with object interaction.
   * **1** - Student is not able to design a solution to one of the tasks in iteration 3 without significant prompting from instructor; or student may struggle significantly with object interactions.
 

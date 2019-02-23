@@ -46,7 +46,7 @@ This Check In should focus on testing. The student should have been able to writ
 
 ## Peer Code Review
 
-[Instructions for the Peer Code Review can be found here.](/module1/lessons/flashcards_peer_code_review)
+[Instructions for the Peer Code Review can be found here.](/module1/lessons/flashcards_peer_code_review.html)
 
 ## Evaluation
 

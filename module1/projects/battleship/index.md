@@ -46,4 +46,4 @@ The optional check in should be student driven, focusing on what the students ne
 
 ## Evaluation
 
-[Instructions for the evaluation can be found here.](/module1/projects/battleship/evaluation)
+[Instructions for the evaluation can be found here.](/module1/projects/battleship/evaluation.html)

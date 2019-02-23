@@ -12,10 +12,10 @@ In Module 1, students will learn:
 Throughout Module 1, students will complete:
 
 * [Projects](/module1/projects/)
-* [Independent Challenges](/module1/independent_challenges)
-* [Paired Assessments](/module1/paired_assessments)
+* [Independent Challenges](/module1/independent_challenges.html)
+* [Paired Assessments](/module1/paired_assessments.html)
 
-Guidelines for promotion [can be found here.](/module1/promotion)
+Guidelines for promotion [can be found here.](/module1/promotion.html)
 
 Page Wishlist/todo:
 

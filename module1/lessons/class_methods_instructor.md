@@ -18,10 +18,10 @@ layout: page
 ## Post It CFU 
 - Teach should create a 2x2 grid on board with markers. It might look like:
 
-| Tables          | Instance Methods   | Class Methods  |
+| CFU          | Instance Methods   | Class Methods  |
 | -------------   |:-------------:     | -----:|
-| Syntax          | <stickies go here> | <stickies go here> |
-| Important Facts | <stickies go here> | <stickies go here> |
+| Syntax          | _stickies go here_ | _stickies go here_ |
+| Important Facts | _stickies go here_ | _stickies go here_ |
 
 
 - Split the class into two groups and give each student 2 sticky notes (may be helpful to give each group their own color). Students will be given two questions to answer, each on a sticky note. They should do this independently. Both should be framed around the idea of: "Pretend a classmate missed this class and asked you to teach them about..."

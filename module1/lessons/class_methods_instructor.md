@@ -23,6 +23,14 @@ layout: page
 - Instance Method
 - Class Method
 
+## Intro 
+- Up until now, we’ve been using classes as factories for instances of that class. We define methods in our class, we store some state in our instance variables, we call .new, and then we can use them. In Ruby, classes are also objects themselves.
+- We are going to talk about something called Class Methods - this is something you won’t use a ton of in Mod 1, but I want you to be familiar with as it will be used heavily in Rails with ActiveRecord. This is another case where you don’t need to be a complete expert, but knowing some terminology and having some context will help you read documentation and other people’s code later, and again, this will circle back in Mod 2. 
+- It’s not wildly different from anything you’ve seen, so I’m going to push you into an exploration activity right away. With your partner…
+  * Look at the class Hedgehog, then complete the table on your paper. This is just based on your educated guesses. If totally unsure, that’s ok!
+  * Once you agree on predictions, take the code snippet (in Slack) and create a runner to see what you get… 
+  * The answer the “Digging In” questions
+
 ## Explore
 - With partner and no computer, work to complete the table on your worksheet. 
 - THEN, hop on a computer and check your predictions. (Recommend you also slack out the code so students don't have to type out that whole class)

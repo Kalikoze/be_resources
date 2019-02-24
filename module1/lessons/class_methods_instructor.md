@@ -7,8 +7,12 @@ layout: page
 
 ## Agenda
 
+
 ## Instructor Prep
 - Have enough sticky notes so that each students has 2 to write on (could have on tables before class)
+- Print worksheets from this gist: https://gist.github.com/ameseee/a000c62f3656a3e2f197bb9e565213c8
+- On the BACK of that, print the "Digging In" Questions: https://gist.github.com/ameseee/d148fbda594876a33b4509d187fdef31
+- Have slack message ready to send out code for the Hedgehog class
 
 ## Learning Goals
 - Explain the difference between class and instance methods.
@@ -19,6 +23,17 @@ layout: page
 - Instance Method
 - Class Method
 
+## Explore
+- With partner and no computer, work to complete the table on your worksheet. 
+- THEN, hop on a computer and check your predictions. (Recommend you also slack out the code so students don't have to type out that whole class)
+
+## Digging Into Class Methods
+- Have students write answers to the digging in questions
+- Have a class discussion to ensure everyone has come to the same/correct conclusion. 
+
+## Demo/Practice
+- Demo writing code for the User, then have students practice with the House.
+- While/after completing that, students should answer the `Exploration` questions in the student facing resource.
 
 ## Post It CFU 
 - Teach should create a 2x2 grid on board with markers. It might look like:

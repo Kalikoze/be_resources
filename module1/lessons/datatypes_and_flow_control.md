@@ -7,6 +7,11 @@ title: Datatypes and Flow Control Practice
 
 * Print out the activity below, 1 per student
 
+## CFU from last night's HW/pre-work (10 mins)
+
+ * PollEverywhere.com Survey - 3 minutes to set up, 7 to complete/discuss
+   * Called `Data Types and Flow Control` - amy.elizabeth.holt@gmail.com / complete
+ 
 ## Introduce the Activity (2 mins)
 
   * 2 exercises
@@ -17,7 +22,7 @@ title: Datatypes and Flow Control Practice
   * DO NOT SKIP CODE SHARE
   * It's okay if you don't finish. Finishing is not the goal.
 
-## Activity (40 mins)
+## Activity (30 mins)
 
   * Instructors should walk the room
   * Identify students to share code on the screen

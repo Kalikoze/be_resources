@@ -1,5 +1,5 @@
 ## Instructor Prep 
-- Print out worksheet for each student
+- Print out worksheet for each student - https://docs.google.com/document/d/1og6SeYsq4lBTu4NIrEHKO2-TIiQJ0LG9faKa9XbLRqA/edit
 - Have code ready in your text editor for Takes 1 and 2
 
 ## Learning Goals

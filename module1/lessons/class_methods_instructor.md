@@ -8,12 +8,17 @@ layout: page
 ## Agenda
 
 ## Instructor Prep
-
-## On Your Desk
+- Have enough sticky notes so that each students has 2 to write on (could have on tables before class)
 
 ## Learning Goals
+- Explain the difference between class and instance methods.
+- Use a class method to create instances of that class.
+- Distinguish between class and instance methods with the same name.
 
 ## Vocabulary
+- Instance Method
+- Class Method
+
 
 ## Post It CFU 
 - Teach should create a 2x2 grid on board with markers. It might look like:

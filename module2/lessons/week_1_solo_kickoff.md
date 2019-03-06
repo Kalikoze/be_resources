@@ -11,6 +11,10 @@ fun building a light-hearted project.
 As of Feb 2019, the project is [Laugh Tracks](/module2/projects/laugh_tracks)
 to encourage some fun.
 
+Let students know that they are welcome to change the subject material of the
+project if they choose, but similar CRUD functionality and database statistics
+are required to be included in some form.
+
 Since the project launches on Day 1 of the module, before students have learned
 very much about web development yet, we need to guide their first few days of
 development:

@@ -1,6 +1,6 @@
 ---
 title: How the Web Works, HTTP Request/Response
-tags: http, servers
+layout: page
 ---
 
 ### Learning Goals

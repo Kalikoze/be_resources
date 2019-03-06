@@ -5,7 +5,7 @@ layout: page
 
 Week One Solo Project
 
-[Laugh Tracks](/backend2/projects/laugh_tracks), solo project, week 1
+[Laugh Tracks](/module2/projects/laugh_tracks), solo project, week 1
 
 [Book Club](https://github.com/turingschool-projects/BookClub), paired project, week 2 and 3
 

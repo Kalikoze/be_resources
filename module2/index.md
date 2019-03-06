@@ -17,6 +17,6 @@ In Module 2, students will learn:
 Throughout Module 2, students will complete:
 
 * [Projects](/module2/projects)
-* [Paired Assessments](/module2/paired_assessments)
+* [Paired Assessments](/module2/paired_assessments.html)
 
-Guidelines for promotion [can be found here.](/module2/promotion)
+Guidelines for promotion [can be found here.](/module2/promotion.html)

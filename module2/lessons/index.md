@@ -7,14 +7,14 @@ layout: page
 
 ### Day One:
 
-- [Intros and Goal Setting](/module2/lessons/intros_and_goals.md)
-- [Solo Project Kickoff](/module2/projects/solo_kickoff.md)
-- [How the Web Works, HTTP Request/Response](/module2/lessons/http_request_response.md)
-- [Intro to REST/CRUD](/module2/lessons/intro_rest_crud.md)
+- [Intros and Goal Setting](/module2/lessons/intros_and_goals)
+- [Solo Project Kickoff](/module2/projects/solo_kickoff)
+- [How the Web Works, HTTP Request/Response](/module2/lessons/http_request_response)
+- [Intro to REST/CRUD](/module2/lessons/intro_rest_crud)
 
 ### Day Two
 
-- [Review of MVC Prework]()
+- [Review of MVC Prework](/module2/lessons/mvc)
 - [Introduction to ActiveRecord in Sinatra]()
 - [Review of HTML/CSS Prework]()
 

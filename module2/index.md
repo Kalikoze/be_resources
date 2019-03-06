@@ -12,6 +12,8 @@ In Module 2, students will learn:
 * Basic unit and feature testing strategies for web applications
 * ActiveRecord/SQL and database interactions
 
+[Lessons](/module2/lessons)
+
 Throughout Module 2, students will complete:
 
 * [Projects](/module2/projects)

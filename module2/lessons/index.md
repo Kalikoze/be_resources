@@ -20,8 +20,8 @@ layout: page
 
 ### Day Three
 
-- [Passing Data with Sinatra]()
-- [ActiveRecord Associations]()
+- [Passing Data with Sinatra](/module2/lessons/passing_data_in_sinatra.html)
+- [ActiveRecord Associations](/module2/lessons/activerecord_associations.html)
 - [Model Testing in Sinatra]()
 - Solo Project Work Time
 

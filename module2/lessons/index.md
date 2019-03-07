@@ -27,7 +27,7 @@ layout: page
 
 ### Day Four
 
-- [Feature Testing in RSpec]()
+- [Feature Testing in RSpec](/module2/lessons/rspec_feature_testing.html)
 - Solo Project Work Time
 
 ### Day Five

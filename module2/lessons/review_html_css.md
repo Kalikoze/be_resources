@@ -29,6 +29,10 @@ http://backend.turing.io/module2/lessons/intro_to_html
 
 http://backend.turing.io/module2/lessons/intro_to_css_and_bootstrap
 
+* Emphasize:
+  * selectors for classes (.something) can be on the page over and over on the page
+  * selectors for IDs (#something) should only happen ONCE on the page
+
 ## Introduce "layout.erb" and "yield"
 
 For their Sinatra project, introduce the idea of `/app/views/layout.erb` and how

@@ -22,7 +22,7 @@ layout: page
 
 - [Passing Data with Sinatra](/module2/lessons/passing_data_in_sinatra.html)
 - [ActiveRecord Associations](/module2/lessons/activerecord_associations.html)
-- [Model Testing in Sinatra]()
+- [Model Testing in Sinatra](/module2/lessons/model_testing_sinatra.html)
 - Solo Project Work Time
 
 ### Day Four

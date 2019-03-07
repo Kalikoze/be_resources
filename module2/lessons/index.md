@@ -33,4 +33,4 @@ layout: page
 ### Day Five
 
 - Solo Project Work Time
-- [Static Comp Challenge]()
+- [Static Comp Challenge](/module2/lessons/week1_static_comp_challenge.html)

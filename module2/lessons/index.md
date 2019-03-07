@@ -16,7 +16,7 @@ layout: page
 
 - [Review of MVC Prework](/module2/lessons/mvc.html)
 - [Introduction to ActiveRecord in Sinatra](/module2/lessons/intro_to_activerecord_in_sinatra.html)
-- [Review of HTML/CSS Prework]()
+- [Review of HTML/CSS Prework](/module2/lessons/review_html_css.html)
 
 ### Day Three
 

@@ -17,6 +17,7 @@ layout: page
 * Be able to distinguish between a RESTful vs non-RESTful route.
 
 ## Vocabulary
+
 * CRUD
 * REST
 * HTTP Verbs

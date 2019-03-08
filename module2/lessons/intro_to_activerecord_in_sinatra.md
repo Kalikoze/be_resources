@@ -5,6 +5,7 @@ layout: page
 
 ## Learning Goals
 
+* Kickoff of ActiveRecord Obstacle Course
 * Generate a migration in order to create or modify a table
 * Use rake commands to create a database/drop a database/generate migration files/and migrate the database
 * Interpret schema.rb
@@ -22,6 +23,18 @@ layout: page
 * What are the pieces of MVC? How do we use them in a Sinatra app?
 * What do you know about ActiveRecord?
 * Name two ActiveRecord methods you explored yesterday.
+
+
+## Kick off the ActiveRecord Obstacle Course
+
+Share this repo in the cohort's public channel
+
+https://github.com/turingschool-projects/activerecord-obstacle-course
+
+* due in week 6
+* do one or two problems every day, and you'll finish in week 4
+* tag instructors for code review
+
 
 ## Repository
 

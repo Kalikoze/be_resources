@@ -34,3 +34,37 @@ layout: page
 
 - Solo Project Work Time
 - [Static Comp Challenge](/module2/lessons/week1_static_comp_challenge.html)
+
+## Week Two
+
+### Day One:
+
+- [Static Comp Peer Review](/module2/lessons/week1_static_comp_review.html)
+- [Solo Project Demos](/module2/lessons/demo_solo_project.html)
+- [Pair Project Kickoff](/module2/lessons/pair_project_kickoff.html)
+- [Waffle.io and Git Co-Author Workshop](/module2/lessons/waffle_and_git_coauthor.html)
+- [REST, Controllers and Routing in Rails](/module2/lessons/rails_rest_controllers_routing.html)
+
+### Day Two:
+
+- Database Relationships and Visualizations
+- Models, Migrations and Databases in Rails
+- Joins, Group, and Order in ActiveRecord
+
+### Day Three:
+
+- Forms in Rails
+- Route Helpers in Rails
+- Pair Project Progress Check-ins
+
+### Day Four:
+
+- Nested Resources
+- ActiveRecord Obstacle Course Work Time
+- Pair Project Work Time
+
+### Day Five:
+
+- Flex Time
+- Friday Challenge
+- Friday Challenge Walkthrough

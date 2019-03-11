@@ -8,6 +8,7 @@ tags: ruby, methods, return, argument
 ## Before Lesson
 
 * Pair Students
+* Print worksheet - https://docs.google.com/document/d/1F4JM1rau4e6UcnYG0Q5irbUCAZo4uwVvRNuR4tPa6pc/edit?usp=sharing
 
 ## Learning Goals
 

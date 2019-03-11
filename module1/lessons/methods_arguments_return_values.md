@@ -133,9 +133,8 @@ pry(main)> puts pi
 * `.upcase`, `.include?`, and `.gsub` are all **Methods** built in to the string
 * We will now define our own methods
 
-**Note to Students on Laptops**:
+**Note to Students (RE no laptop time)**:
 
-* Students should not be coding along
 * Students should be taking notes
 * Students will have an opportunity to practice
 

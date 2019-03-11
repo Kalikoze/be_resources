@@ -257,9 +257,9 @@ puts converter.convert_to_celsius(32)
 
 # Part 3: Paired Student Activity (25 mins)
 
-* Instructor should drop link to the lesson plan in the student channel
-* Students should work on the two activities in the lesson plan
-* Get as far as you can.  
+* Instructor should drop link to this gist in the cohort channel: https://gist.github.com/ameseee/c311860e9f6bc023036351f298907ccb
+* Students should work on the two activities provided
+* Get as far as you can! Emphasis is on exploring/building understanding rather than plowing though examples.  
 * 15 minutes to work, then we'll review
 
 ## Introduce Activity 1

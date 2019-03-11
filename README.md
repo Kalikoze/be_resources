@@ -15,4 +15,3 @@ In order to set up this project to view locally:
     * [GitHub Token](https://help.github.com/articles/creating-a-personal-access-token-for-the-command-line/)
     * [GitHub Client ID & Client Secret](https://auth0.com/docs/connections/social/github)
     * Turing Team ID: Use `curl -H "Authorization: token <very-long-access-token>" https://api.github.com/orgs/turingschool/teams` replacing `<very-long-access-token>` withyour GitHub Token. The ID will be associated with the group named Staff.
-

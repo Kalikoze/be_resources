@@ -1,5 +1,5 @@
 ---
-title: Everyday Strategies
+title: Instructional Tactics
 layout: page
 ---
 

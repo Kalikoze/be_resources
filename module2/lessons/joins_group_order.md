@@ -27,6 +27,8 @@ layout: page
 
 ## Lecture
 
+**Joining, grouping, and ordering data are some of the most complex things we do in Mod 2 and the concepts are easily misunderstood. Let students know that we'll review this lesson in a few days to cover the material again if they want.**
+
 * we've talked about using ActiveRecord to create, find, and delete records, as well as to find related records on other tables
 * you've begun using ActiveRecord in your Book Club project to query your database for analysis and stats
 * today we're going to review three ActiveRecord methods that will help you with some of those analytics.
@@ -143,10 +145,13 @@ In tux,
 
 ### in psql
 
-Remind students what the result set looks like at the database level:
+Remind students what the result set looks like at the database level.
 
+`SELECT * FROM courses JOIN students ON students.course_id = courses.id;`
 
-The Course objects that are returned from this query will only know about Course attributes. In order to access attributes from both tables, we need to add one more piece:
+The Course objects that are returned from this query will only know about Course attributes because that's our select statement is doing.
+
+In order to access attributes from both tables, we need to add one more piece:
 
 ```ruby
 # In the Course model
@@ -158,24 +163,28 @@ end
 Course.select("courses.*, students.*").joins(:students)
 ```
 
-With that in place, we can get student attributes out of our Course object, like so:
+Explain that the output doesn't look any different -- ActiveRecord's console output will only show the "native" attributes in a model when it echoes/prints the model object to the console.
 
+* in `tux`:
 ```
-From tux
-Course.select("courses.*, students.*")
-  .joins(:students)
-  .first
-  .first_name
+Course.select("courses.*, students.*").joins(:students).first.first_name
 ```
 
 More on how we might use `.joins` shortly.
 
+
 ### Group
 
-Group will take the results and group them by a particular attribute. So, for example:
+* Group will take the result set and condense common rows by a particular attribute.
+* We can only group on columns that are part of our "select" statement.
+
+Using "Group" in ActiveRecord and SQL will allow us to condense common rows of data from our result set by perform some other calculation on the data at the same time.
+
+**We can't group data without a calculation.**
+
+* in `psql`:
 
 ```SQL
-# In SQL:
 SELECT students.course_id, count(students.id) AS student_count FROM students GROUP BY students.course_id;
 ```
 The return looks something like this:
@@ -190,8 +199,8 @@ course_id  | student_count
 (4 rows)
 ```
 
+* in `/app/models/student.rb`
 ```ruby
-# In the Student model
 def self.count_by_course_id
   group(:course_id).count
 end
@@ -205,13 +214,43 @@ Will return a hash like the following:
 
 The keys are the course_id and the values are the count of how many students in that course.
 
+### Other Important Caveats:
+
+**ActiveRecord will return a hash if we include a .group instruction, and then end our statement with an 'aggregation' instruction like .count, .sum or .average** Once ActiveRecord sees that aggregation command, a hash object is returned and no further ActiveRecord commands will work.
+
+* in `tux`
+`Student.group(:course_id).count.order(:course_id)`
+
+If we don't want a hash, we have to build our own `.select()` statement instead to get an array of objects instead:
+
+```ruby
+Course.joins(:students).select("courses.id, count(students.id) AS student_count").group(:id)
+or
+Student.select("course_id, count(id) AS student_count").group(:course_id)
+```
+
+Likewise, using an aggregate function earlier in the "chain" of commands can return a calculation result instead of allowing us to chain additional instructions.
+
+Example in `tux`: `Student.count.group(:course_id)`
+* tells us we can't do a `group` operation on an integer because `Student.count` returned an integer
+
+
 ### Order
 
-Assume we want to take the same request, but now sort it by the count, getting the courses with the lowest counts of students first. We could use order.
+* `.order()` is used to sort data in our result set
+* needs a "direction" of ASCending/DESCending
+  * some db's support a 'random' direction as well to shuffle things
+* ascending is the default if no direction is specified
+  * but it's good to be specific always
 
+To order our courses by student count, getting the courses with the lowest counts of students first:
+
+* in `psql`:
 ```SQL
-# In SQL
-SELECT students.course_id, count(students.id) AS student_count FROM students GROUP BY students.course_id ORDER BY student_count;
+SELECT students.course_id, count(students.id) AS student_count
+FROM students
+GROUP BY students.course_id
+ORDER BY student_count ASC;
 ```
 
 This will return us a table like so:
@@ -226,10 +265,13 @@ course_id | student_count
 (4 rows)
 ```
 
+* in `/app/models/student.rb`
+
 ```ruby
-# In the Student model
 def self.count_by_course_id
-  group(:course_id).order("count_all").count
+  group(:course_id)
+    .order("count_all")
+    .count
 end
 ```
 
@@ -249,6 +291,13 @@ Course.select("courses.*, avg(score) AS avg_score")
 ```
 
 This query will return a collection of Course objects. The first will be the Course with the highest avg_score.
+
+We can order by multiple attributes, for example we could order students by last name then first name:
+`Student.order("last_name desc, first_name asc")`
+
+We can also write this in hash notation:
+`Student.order(last_name: :desc, first_name: :asc)`
+
 
 ## Checks for Understanding
 

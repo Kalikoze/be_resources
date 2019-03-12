@@ -47,8 +47,8 @@ layout: page
 
 ### Day Two:
 
-- Database Relationships and Visualizations
-- Models, Migrations and Databases in Rails
+- [Database Relationships and Visualizations](/module2/lessons/database_relationships_and_visualizations.html)
+- [Models, Migrations and Databases in Rails](/module2/lessons/model_migrations_databases_rails.html)
 - Joins, Group, and Order in ActiveRecord
 
 ### Day Three:

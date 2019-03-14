@@ -23,7 +23,8 @@ POM
 
 ## Instructor Prep
 
-- Print out map/find/find_all [guided notes](https://docs.google.com/document/d/18vwmgwLL_45v6HbEb2ktiWWNf42z4sIIzq0R9S0QvoY/edit?usp=sharing)  
+- Print out map/find/find_all [guided notes](https://docs.google.com/document/d/18vwmgwLL_45v6HbEb2ktiWWNf42z4sIIzq0R9S0QvoY/edit?usp=sharing) 
+- Assign pairs to students and send out pairs before class starts
 
 ## On Your Desk
 
@@ -55,12 +56,11 @@ POM
 ## General Flow of Lesson
 
 - Intro an enumerable, show some examples
-- Students practice re-writing from an each to the best-use enumerable that was just exampled
-- Students record syntax, return value, and best use cases for newly learned enumerable
+- Students given a task to perform using .each. In pairs, students work on computer to find solution to task. Whole group discusses possible answers and time is given to record answer on paper.
+- Students then asked to do the same task as above, but this time using the new enumerable. Whole group discusses possible answers and time is given to record answer on paper.
+- Students record syntax, return value, and best use cases for newly learned enumerable on the guided notes
 
 Repeat above for all new enumerables
-
-- Students turn and talk about vocabulary to solidify concepts (vocab at bottom of guided notes)
 
 
 ## Final CFU

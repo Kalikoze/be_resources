@@ -307,8 +307,7 @@ How can we get access to another resource through our join table?
 
 Run `rspec` and see what errors you get.
 
-
-run `rails console` and create a new Playlist
+Run `rails console` and create a new Playlist
 
 **Turn and Talk**
 
@@ -319,7 +318,7 @@ run `rails console` and create a new Playlist
 ## Notes
 
 * common column types: `boolean`, `string`, `text`, `integer`, `date`, `datetime`
-* `rake db:migrate` applys our migrations
+* `rake db:migrate` applies our migrations
 
 ## WrapUp
 

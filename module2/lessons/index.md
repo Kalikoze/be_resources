@@ -53,18 +53,18 @@ layout: page
 
 ### Day Three:
 
-- Forms in Rails
-- Route Helpers in Rails
+- [Forms in Rails](/module2/lessons/form_helpers_rails.html)
+- [Route Helpers in Rails](/module2/lessons/route_helpers.html)
 - Pair Project Progress Check-ins
 
 ### Day Four:
 
-- Nested Resources
+- [Nested Resources](/module2/lessons/nested_resources.html)
 - ActiveRecord Obstacle Course Work Time
 - Pair Project Work Time
 
 ### Day Five:
 
 - Flex Time
-- Friday Challenge
+- Friday Challenge, week 2 is Apollo 14
 - Friday Challenge Walkthrough

@@ -1,5 +1,4 @@
 ## Learning Goals
-
 * Understand Block Return Values
 * Be able to use `max`, `max_by,` their opposites, `sort_by`, and `all?` appropriately.
 
@@ -9,15 +8,12 @@
 * Return Value
 * Block
 
-## Warm Up
+## Prep
+- Use Week 2 CFU to determine who will be your 4-5 "table leaders". These people should have used best-use enums on the first two questions (.find_all and .min_by). Before the lesson (1-ish day) let these students know/ask if they are ok with it, and let them know which enum they will facillitate so they can spend some time preparing (no more than 20 minutes).
+- Classroom setup - have a designated table (or study room/vault if nearby) for each station.
+- Print out notes sheet for stations.
 
-Given the array `kardashians = ["Khloe", "Kim", "Kris", "Kourtney"]`, use `find`, `find_all`, or `map` to:
-
-1. Find all the Kardashians with 3 or more letters
-1. Find `"Kris"`
-1. Create a new array with all the names upcased
-
-## Exploration: Block Return Values
+## Warm Up: Block Return Values
 
 How do the enumerables we know so far work under the hood? Work through this section with a partner to explore this question. Before you run each code snippet, try to predict the output.
 
@@ -27,27 +23,33 @@ Run each of the following examples and think about how map works.
 
 ```ruby
 numbers = [1, 2, 3, 4]
+
 doubled = numbers.map do |number|
   number * 2
 end
+
 p doubled
 ```
 
 ```ruby
 numbers = [1, 2, 3, 4]
+
 doubled = numbers.map do |number|
   number * 2
   0
 end
+
 p doubled
 ```
 
 ```ruby
 numbers = [1, 2, 3, 4]
+
 doubled = numbers.map do |number|
   0
   number * 2
 end
+
 p doubled
 ```
 

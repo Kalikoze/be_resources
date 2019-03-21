@@ -11,7 +11,7 @@
 ## Prep
 - Use Week 2 CFU to determine who will be your 4-5 "table leaders". These people should have used best-use enums on the first two questions (.find_all and .min_by). Before the lesson (1-ish day) let these students know/ask if they are ok with it, and let them know which enum they will facillitate so they can spend some time preparing (no more than 20 minutes).
 - Classroom setup - have a designated table (or study room/vault if nearby) for each station.
-- Print out notes sheet for stations.
+- Print out warm up/wrap up questions
 
 ## Warm Up: Block Return Values
 
@@ -53,6 +53,8 @@ The station should start with the table leader explaining the purpose of this en
 
 
 #### Now you try:
+- First, complete the back of your warm up worksheet. 
+- Students should first determine the best-use enum, THEN write a solution.
 
 ```ruby
 class Person

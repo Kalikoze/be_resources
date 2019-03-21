@@ -34,23 +34,22 @@ Groups should be created:
   
 Assign each group a starting station and determine a direction for rotation. Each group will have 10 minutes at each station. 
 
-The station should start with the table leader explaining the purpose of this enum, and showing some examples of how it can be used. They should talk about the return value. Then, students should practice using that enum with the provided exercises. Make sure to provide the table leader with a key. 
+The station should start with the table leader explaining the purpose of this enum, and showing some examples of how it can be used. They should talk about the return value. Then, students should practice using that enum with the provided exercises. Make sure to provide the table leader with a key. This google doc has materials for all stations in case you'd like to print out: https://docs.google.com/document/d/1dk4qggP1mGv9cCUUBCN-aNdDKMQM1d95eZcxbGrbnTQ/edit
   
 ## min / max
-& Comparing Strings
+[Repl](https://repl.it/@ameseee/min-max) 
 
+## min_by 
+[Repl](https://repl.it/@ameseee/minby) 
 
-
-## min_by / max_by
-
-
+## max_by
+[Repl](https://repl.it/@ameseee/maxby) 
 
 ## sort & sort_by
-
-
+[Repl](https://repl.it/@ameseee/sort-and-sortby) 
 
 ## all? & any?
-
+[Repl](https://repl.it/@ameseee/any-and-all) 
 
 
 #### Now you try:

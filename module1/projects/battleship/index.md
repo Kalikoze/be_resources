@@ -15,6 +15,10 @@ In this paired project, students will build a command line implementation of the
 * Work in a pair
 * Use Pull Requests to collaborate with a partner
 
+## Code Share Questions
+
+* Available [here](/module1/projects/battleship/code_share.html)
+
 ## Timeline
 
 * Monday, Week 2

@@ -1,6 +1,9 @@
 ## Instructor Prep 
-- Print out worksheet for each student - https://docs.google.com/document/d/1og6SeYsq4lBTu4NIrEHKO2-TIiQJ0LG9faKa9XbLRqA/edit
-- Have code ready in your text editor for Takes 1 and 2
+- Print out [guided notes](https://docs.google.com/document/d/1biTT6CJcYamov1g8vqysJjWkczZG9gxDZdZ34_jZplI/edit?usp=sharing) for students 
+- Send students [practice repo](https://github.com/turingschool-examples/vehicles_driving) and have them clone it down before class 
+- Have [repo for class](https://github.com/turingschool-examples/online_orders) and [practice repo](https://github.com/turingschool-examples/vehicles_driving) ready and pulled up in text editor.
+- Have [slides](https://docs.google.com/presentation/d/1ju54LoCCh31VQOC-gKCzKfqR7AbxkV4EC-VmAxRbtjs/edit?usp=sharing) ready.
+
 
 ## Learning Goals
 * understand the role the Modules play in Ruby
@@ -22,17 +25,20 @@ Spend the first five minutes writing answers to the following questions:
 
 ## Introduction
 
+Have students skip to the mixin part of their notes and fill in the notes about modules based off of the slide after warmups (slide 3). 
+
 
 ### Mixins
 
 ### Modules 
 
-- Instructor - show students the code for both files side by side. 
-- BEFORE you run it, have them write on their Take 1 Worksheet - what will return for each line?
-- Run the code. 
-- Then move into T&T (below code snippet) 
+- Instructor - show students the code for both files (grubhub_order.rb and amazon_order.rb) side by side in your text editor. 
+- BEFORE you run it, have them use the code snippet at the top of their guided notes to write their predictions for what each line will return. (5 minutes)
+- Answer the T&T questions after writing predictions(2 minutes)
+- Drop into pry and run the code for the whole class (4 minutes)
 
-Let's make some online orders - **Take 1**.
+
+Let's make some online orders 
 
 `touch grubhub_order.rb`
 
@@ -99,12 +105,11 @@ grub.delivery
 - What design principle(s) are we breaking with these two classes? Explain.
   * DRY 
   
-Let's extract the duplication using Modules - online orders **Take 2**.
+Let's extract the duplication using Modules - online orders 
 
 Instructor: 
-- Show code for all three files this time. 
-- Students will write on worksheet what their predictions are 
-- Then you run the code.
+- Walk through the creation of the OnlineOrder module. 
+- Then you run the code by dropping into pry.
 
 `touch online_order.rb`
 

@@ -21,7 +21,7 @@ Independent Challenges are listed below by week, one of which is marked "public"
   * Week 5: Museo
   * Final: Market
 
-* 1901 
+* 1901
   * Week 5: Market
   * Final: Pantry
 * 1903
@@ -57,7 +57,7 @@ The week 3 challenge will require students to build three classes that interact.
 
 * [World Cup](https://github.com/turingschool-examples/world_cup)(Public)
 * [Market Street Apartments](https://github.com/turingschool/market_st_apartments) - [1901](https://github.com/turingschool-examples/market_st_apartments_1901)
-* [TV Network](https://github.com/turingschool/tv_network) - 1903
+* [TV Network](https://github.com/turingschool/tv_network) - [1903](https://github.com/turingschool-examples/tv_network_1903)
 
 ## Week 4
 

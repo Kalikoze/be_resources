@@ -9,7 +9,7 @@ layout: page
 
 
 ## Instructor Prep
-- Have enough sticky notes so that each students has 2 to write on (could have on tables before class)
+- Have enough sticky notes so that each students has 2 to write on (could have on tables before class) - IF you choose post it note CFU over PollEv/another form of CFU
 - Print worksheets from this gist: https://gist.github.com/ameseee/a000c62f3656a3e2f197bb9e565213c8
 - On the BACK of that, print the "Digging In" Questions: https://gist.github.com/ameseee/d148fbda594876a33b4509d187fdef31
 - Have slack message ready to send out code for the Hedgehog class
@@ -61,3 +61,7 @@ layout: page
   * Important facts about Class Methods
 - As each student completes their sticky notes, they should walk up to the board and place it in the appropriate spot.
 
+## ANOTHER OPTION FOR CFU
+
+## PollEv CFU
+Create a PollEv group of questions using the exploration questions from the student-facing resource. 

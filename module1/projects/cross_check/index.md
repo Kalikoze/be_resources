@@ -17,6 +17,10 @@ In this group project, students will use CSV data from the NHL to perform statis
 * Work in a group
 * Use Pull Requests to collaborate among multiple partners
 
+## Code Share Questions
+
+* Available [here](/module1/projects/cross_check/code_share.html)
+
 ## Timeline
 
 * Monday, Week 4

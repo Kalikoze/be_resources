@@ -44,7 +44,7 @@ During the kickoff, the instructor should discuss the following:
   * File Reading
 * Red, Green, Refactor approach
 * Goal is to write readable, OO code
-* Spec Harness is not a replacement for tests
+* Spec Harness is not a replacement for tests - https://github.com/turingschool-examples/cross_check_spec_harness
 * Tests should not use full CSVs for testing
 * Use TDD as a design tool
 

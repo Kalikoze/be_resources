@@ -64,7 +64,7 @@ The week 3 challenge will require students to build three classes that interact.
 The week 3 challenge will require students to build three classes that interact. Students must think algorithmically to build an Object Oriented solution that solves the problem. Students will also be required to build a hash.
 
 * [Boat Rental](https://github.com/turingschool-examples/boat_rental)(Public)
-* [Museum](https://github.com/turingschool-examples/museum) - 1903
+* [Museum](https://github.com/turingschool-examples/museum) - [1903](https://github.com/turingschool-examples/museum_3)
 * [Denver Public Library](https://github.com/turingschool/denver_public_library) - [1901](https://github.com/turingschool-examples/dpl_1901)
 
 ## Weeks 5 and 6

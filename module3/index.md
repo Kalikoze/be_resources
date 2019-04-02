@@ -12,8 +12,8 @@ layout: page
 
 ### Overviews
 
-* [Assessments](./assessments)
-* [Mid-Mods](./mid-mods)
-* [Projects](./projects)
-* [Lessons](./lessons)
-* [Checklists](./checklists) (end of mod and weekly)
+* [Assessments](/module3/assessments.html)
+* [Mid-Mods](/module3/mid-mods.html)
+* [Projects](/module3/projects.html)
+* [Lessons](/module3/lessons.html)
+* [Checklists](/module3/checklists.html) (end of mod and weekly)

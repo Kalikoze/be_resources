@@ -24,16 +24,16 @@ The repo marked (public) is linked on the Backend Curriculum Site for students t
 
 Instructors should use the Final from the previous cohort as the Mid Mod. A sample rotation would be:
 
-* 1810
-  * Mid Mod: Students and Courses
-  * Final: Passengers and Vehicles
-* 1811
+* 1901
   * Mid Mod: Passengers and Vehicles
   * Final: Employees and Departments
-* 1901
-  * Mid Mod: Employees and Departments
-  * Final: Students and Courses
-
+* 1903
+  * Mid Mod: Students and Courses
+  * Final: Passengers and Vehicles
+* 1904 
+  * Mid Mod: Passengers and Vehicles
+  * Final: Employees and Departments
+  
 This rotation ensures that a repeater will have a different final each time.
 
 ### Grading

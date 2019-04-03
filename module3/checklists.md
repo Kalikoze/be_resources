@@ -37,21 +37,32 @@ The ultimate goal for this week is to get to know your students as individuals a
 
 ### Week 3
 
-* Tuesday - Review and send out mock assessment setup info.
-  * Make sure the API is working the way you’d expect
-  * Confirm students can sign up for an API key (you can have them sign up the night before if you’d like)
-  * Send link to the mock assessment requirements and setup instructions
-  * Update student-assessments repo for mock and final assessments
+* Tuesday - Prepare for the [Mid-Mod](/module3/mid-mods.html)
 * Put together 1:1 schedule to discuss mock assessment results
   * Goal from these 1:1s is to let students know if their current trajectory has them passing the mod. If not, what do they need to do to close the gap. If yes, what should they being doing to improve and get the most value out of the remainder of the Mod?
 * Put together form for gathering project preferences
+  * Have students rank their from 1-3 their preferences
+* Assign project groups
+  * Aim for giving everyone their first or second choice
+* Friday - Send out practice assessment
 * Friday - Send out weekly survey
-
 
 ### Week 4
 
-* Schedule daily stand-ups
+* Schedule daily stand-ups with each project group. Slack can be a good way to gather this data if doing it in person is too much.
+* Friday - Send out weekly survey
+
 
 ### Week 5
 
+* Create templates for project evals
+* Friday - Send out weekly survey
+* Remind students about their portfolio presentation
+
 ### Week 6
+
+* Prepare for [Assessment](/module3/assessments.html)
+* Confirm intermission week work is ready to go
+* Remind students about their portfolio presentation
+* Keep the outcomes spreadsheet up to date
+* Friday - Send out weekly survey

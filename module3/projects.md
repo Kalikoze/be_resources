@@ -30,7 +30,7 @@ layout: page
 
 The first part of the week should focus on making sure students have a clear goal of what they are building. Wireframes, written stories, and meetings with an instructor usually give students the best chance at having a successful project.
 
-Make sure they are thinking about demoing from day 1 which means they should probably handle the design early on. If it's an afterthought it usually shows.
+Make sure they are thinking about demoing from day 1 which means they should probably handle the design early on. If it's an afterthought it usually shows. A good way to push them to a focus on an MVP is to make them commit to demoing during the code fair.
 
 The most successful projects tend to be 4 pages or less but executed very well.
 

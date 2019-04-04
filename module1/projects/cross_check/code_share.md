@@ -1,5 +1,5 @@
 ---
-title: Battleship
+title: Cross-Check
 layout: page
 ---
 

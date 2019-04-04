@@ -27,51 +27,38 @@ POM
 
 ## Warmup
 
-SAY:
+Have students discuss the two questions in pairs. 
+Choose a student (possibly at random) to answer the first question.
+Ask for volunteers for the second question. 
 
-In movies and shows, many actors have Stunt Doubles. A stunt double is a cross between a body double and a stunt performer. The usually have a role when an actor needs to engage in a dangerous scene such as … (insert examples from people’s favorite movies)
-
-GIVE DIRECTIONS TO STUDENTS:
-
-With your partner, take 3 minutes to google an ‘action’ actor or movie you like, and find a picture of the actor(s) and their stunt double(s). Answer these questions…
-- What do they have in common?
-- What is different about their jobs?
-- Why does the production company hire this double? How does it impact the actors job?
-- When you watch a movie, it is usually obvious that a different human is acting a scene out? Does it change your movie-watching experience? Explain.
+While students say what they already know about mocks/stubs, write some of those things on the board, and then use that brainstorming to give a definition of mocks and stubs at a very high level. 
 
 
 ## Paired Exercise
 
 ### Setup
 
-To get access to methods that create mocks and stubs, we'll need to install and require the `mocha` gem. A gem is a package of code that someone else wrote. We bring them in to projects to make our lives easier!
+Have students clone the [bob_ross](https://github.com/turingschool/bob_ross) repo. 
+
+Show students the tests, and note that there are two that are not skipped. Have students run their test and use the errors to get a passing test for those first two tests. 
+
+As a group, walk students through the basics of mocking with the third test. In order to mock, we must install the mocha gem:
+
 
 ```bash
 gem install mocha
 ```
 
-Once that's set, create a `bob_ross` directory with `lib` and `test` sub-directories. Create a `bob_test.rb` file in your `test` directory with the following code:
+and then require 'mocha/minitest' at the top of our test file: 
 
 ```ruby
 require 'minitest/autorun'
 require 'minitest/pride'
 require 'mocha/minitest'
 require './lib/bob'
-
-class BobTest < Minitest::Test
-  def test_it_exists
-    bob = Bob.new
-    assert_instance_of Bob, bob
-  end
-
-  def test_it_starts_with_no_paints
-    bob = Bob.new
-    assert_equal [], bob.paints
-  end
-end
 ```
 
-Note that we have required `mocha/minitest` at the top of the file.
+Since this third test is just testing that objects get shoveled into the hash, we only need mock these paint objects (instead of stubbing). 
 
 **Pair Work:**
 

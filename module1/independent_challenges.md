@@ -77,3 +77,5 @@ The week 5 challenge will be a practice for the final in week 6.
 * [Market](https://github.com/turingschool/market) - [1901](https://github.com/turingschool-examples/market_1901)
 * [Pantry](https://github.com/turingschool-examples/pantry) - 1903
 * [Museo](https://github.com/turingschool/museo)
+
+IdeaBank for possible future challenges: https://github.com/karan/Projects#classes

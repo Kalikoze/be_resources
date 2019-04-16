@@ -3,6 +3,16 @@ title: Mod 2 Backend lessons
 layout: page
 ---
 
+## Recordings
+
+We began audio recording lessons during the 1901 Inning with the 1811 cohort in week 2. In the 1903 Inning with the 1901 Cohort we had some remote days and some Zoom recordings were made for students as well.
+
+Recordings are found here:
+
+https://drive.google.com/drive/folders/1t5FrmqihPsLX2NWfamOrd5nk9pMRr4kU
+
+---
+
 ## Week One
 
 ### Day One:
@@ -34,6 +44,8 @@ layout: page
 
 - Solo Project Work Time
 - [Static Comp Challenge](/module2/lessons/week1_static_comp_challenge.html)
+
+---
 
 ## Week Two
 
@@ -68,3 +80,118 @@ layout: page
 - Flex Time
 - Friday Challenge, week 2 is Apollo 14
 - Friday Challenge Walkthrough
+
+---
+
+## Week Three
+
+### Day One:
+
+- Pair Project Demos
+- Reflection/Review of Joins/Groups content
+- Project Check-ins and Work Time
+
+### Day Two:
+
+- Namespacing Routes in Rails
+- Project Work Time
+
+### Day Three:
+
+- Project Evaluations
+- Exploration: Sessions and Cookies
+- Mid-Mod Study Time or ActiveRecord Obstacle Course
+
+### Day Four:
+
+- Mid-Mod Evaluations
+- Exploration: Authentication/Authorization Best Practices in Rails
+
+### Day Five:
+
+- Live walkthrough of Mid-Mod
+- Group Project Kickoff
+
+## Week Four
+
+### Day One:
+
+- Cookies, Sessions in Rails
+- Authentication
+- Authorization
+- [Database Review for Little Shop](/module2/lessons/little_shop_database_review.html)
+- Required Homework for Asset Pipeline
+
+### Day Two:
+
+- Introduction to Asset Pipeline
+- SQL/AR Review
+- Project Work Time
+
+### Day Three:
+
+- Cart & Order Lifecycle
+- Group Project Check-in and Work Time
+
+### Day Four:
+
+- Group Project Work Time
+
+### Day Five:
+
+- Flex Hour
+- Friday Challenge, week 4 is Vending Machine Tracker
+- Friday Challenge Walkthrough
+
+---
+
+## Week Five
+
+### Day One:
+
+- Group Project Check-ins
+- Group Project Work Time
+
+### Day Two:
+
+- Group Project Work Time
+
+### Day Three:
+
+- Final Verbal Assessment (based on CFUs)
+- Group Project Work Time
+
+### Day Four:
+
+- Solo project kickoff
+- Group Project Assessment
+- Solo project work time
+
+### Day Five:
+
+- early bird final coding (prioritize repeaters)
+- Solo project work time
+- Code Fair
+- Week 5 with Jeff
+
+## Week Six
+
+### Day One:
+
+- Final Coding Assessment
+
+### Day Two:
+
+- Solo Project Work time
+- Early-bird Solo Project Assessments
+- Final coding re-take (if needed)
+
+### Day Three:
+
+- Solo Project Assessments
+
+### Day Four:
+
+- Portfolio Reviews
+- Intro to new Cohort
+- Demo Night

@@ -20,3 +20,5 @@ Throughout Module 2, students will complete:
 * [Paired Assessments](/module2/paired_assessments.html)
 
 Guidelines for promotion [can be found here.](/module2/promotion.html)
+
+[Premod Checklist](./checklists/premod)

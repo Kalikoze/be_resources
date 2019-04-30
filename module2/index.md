@@ -22,3 +22,4 @@ Throughout Module 2, students will complete:
 Guidelines for promotion [can be found here.](/module2/promotion.html)
 
 [Premod Checklist](./checklists/premod)
+[Weekly Checklist](./checklists/weekly)

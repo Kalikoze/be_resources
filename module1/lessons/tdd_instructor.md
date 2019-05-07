@@ -44,10 +44,37 @@ Teacher Talk Time
 
 Teacher Talk Time
 
+- compels you to make hard decisions early
+- scary because you are making decisions in a context you don’t understand
+- a discipline tool – forces you to a) be specific, and b) stay focused 
+
+But why test?
+
+- refactor with confidence
+- build new features and have regression testing
+- provides a roadmap for others to follow
+
+But why FIRST?
+
+- breaks down the problem early
+- don't have to back-fill testing where we might miss details
+- what we want is all we need -- don't build more than you need
+
 REALLY reinforce that it's OK that it feels hard to think about writing tests first. A lot of students say "my brain just doesn't work that way" - well, most don't, we have to train ourselves to do it that way. Once it's a habit, they will see their brain does work that way and it will benefit them greatly.
 
 ### Types of Tests
 Quick overview - focus on unit/integration.
+
+Programmer-centric:
+
+- Unit Test - tests one component in isolation.
+- Integration Test - tests multiple interdependencies or coordinating components.
+
+Customer-centric:
+
+- Feature Test - a single feature as experienced by a user.
+- Acceptance Test - a collection of user functionalities that delivers business value.
+
 
 In Module 1, on the other hand, we will rely much more heavily on **Unit** and **Integration** tests -- and it's very
 important to have a good mix of both!
@@ -58,9 +85,9 @@ important to have a good mix of both!
 
 ### Partner Practice
 
-Students should implement exists and attribute tests for a car. Make sure to restate that they should not be writing any code to pass these tests, yet.
+Students should implement exists and attribute tests for a car as outlined in the lesson. Make sure to restate that they should not be writing any code to pass these tests, yet.
 
-Review tests as a class, then have students pass the tests.
+Review tests as a class, then have students write the code to pass the tests.
 
 ## Command vs. Query Methods
 
@@ -72,9 +99,14 @@ Methods either do one of two things for us:
 
 When testing, it's really important to keep in mind what a method should be doing, to ensure we test it well. Stepping out of TDD just for a minute so we can illustrate this, let's look at this example:
 
-(code)
+(code for car.rb)
 
-Discussion questions in student resource.
+Discussion questions in student resource:
+
+- What are all the methods we have on an instance of this class?
+- Which methods give us information about a car object?
+- Which methods change something about a car object?
+- How would you go about testing that the start method does what it is supposed to?
 
 Instructor should live-code this for the class.
 
@@ -82,22 +114,7 @@ Instructor should live-code this for the class.
 
 Given the following interaction pattern, build on your test file for this (not yet existent) class, Car.
 
-```ruby
-car = Car.new("Toyota", "Camry")
-#=> #<Car:0x007fa2e9acd738>
-
-car.color
-#=> "white"
-car.paint("blue")
-car.color
-#=> "blue"
-car.odometer
-#=> 0
-car.drive(10)
-car.drive(7)
-car.odometer
-# => 17
-```
+Have students examine the second block of code about a car interaction pattern, and work in their pairs to start writing tests.
 
 Once we've established that students are writing tests, they can write the code to pass tests.
 

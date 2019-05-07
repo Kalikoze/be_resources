@@ -1,3 +1,8 @@
+---
+layout: page
+title: TDD
+---
+
 # Test Driven Development
 
 ## Instructor Prep
@@ -22,7 +27,7 @@ Have students follow directions in student resource with printout of HouseTest. 
 
 ### Overview
 
-Teacher Talk Time 
+Teacher Talk Time
 
 It can be especially difficult to get started on a new project or even a new iteration of a project. The essence of testing is asking questions and coming up with difficult answers.
 
@@ -33,11 +38,11 @@ It can be especially difficult to get started on a new project or even a new ite
 
 ### Why do we write tests?
 
-Teacher Talk Time 
+Teacher Talk Time
 
 ### Okay, sure, but why do we write tests first?
 
-Teacher Talk Time 
+Teacher Talk Time
 
 REALLY reinforce that it's OK that it feels hard to think about writing tests first. A lot of students say "my brain just doesn't work that way" - well, most don't, we have to train ourselves to do it that way. Once it's a habit, they will see their brain does work that way and it will benefit them greatly.
 
@@ -55,11 +60,11 @@ important to have a good mix of both!
 
 Students should implement exists and attribute tests for a car. Make sure to restate that they should not be writing any code to pass these tests, yet.
 
-Review tests as a class, then have students pass the tests. 
+Review tests as a class, then have students pass the tests.
 
 ## Command vs. Query Methods
 
-Teacher-led: reinforce that this is a common misconception we see with testing so added this is the lesson. 
+Teacher-led: reinforce that this is a common misconception we see with testing so added this is the lesson.
 
 Methods either do one of two things for us:
 - Give us information about an object
@@ -71,7 +76,7 @@ When testing, it's really important to keep in mind what a method should be doin
 
 Discussion questions in student resource.
 
-Instructor should live-code this for the class. 
+Instructor should live-code this for the class.
 
 ### Partner Practice
 
@@ -94,7 +99,7 @@ car.odometer
 # => 17
 ```
 
-Once we've established that students are writing tests, they can write the code to pass tests. 
+Once we've established that students are writing tests, they can write the code to pass tests.
 
 ### With a Partner
 
@@ -108,7 +113,7 @@ Share out with the class!
 
 ### Wrap Up
 
-Have students journal their answers to these questions, or DM to instructor. 
+Have students journal their answers to these questions, or DM to instructor.
 
 * Why is a thorough test suite important to have?
 * How does letting tests drive your development lead you to stronger code?

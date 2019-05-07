@@ -1,3 +1,8 @@
+---
+layout: page
+title: Lessons
+---
+
 - [boolean_logic_instructor](boolean_logic_instructor.html)
 - [class_methods_instructor](class_methods_instructor.html)
 - [datatypes_and_flow_control](datatypes_and_flow_control.html)

@@ -1,3 +1,8 @@
+---
+title: Weekly Checklists
+layout: page
+---
+
 ## Week 1
 - Make Pair Project pairs
 - Make 1st Pair Project Check-in Schedule

@@ -2,6 +2,7 @@
 title: Beginner Enumerables
 length: 120
 tags: enumerables, map, select, find, each
+layout: page
 ---
 
 ## Agenda

@@ -22,5 +22,6 @@ title: Lessons
 - [modules instructor](/module1/lessons/modules_instructor.html)
 - [nested collections](/module1/lessons/nested_collections.html)
 - [objects classes instances instructor](/module1/lessons/objects_classes_instances_instructor.html)
+- [ruby object model](/module1/lessons/ruby_object_model.html)
 - [scope instructor](/module1/lessons/scope_instructor.html)
 - [tdd instructor](/module1/lessons/tdd_instructor.html)

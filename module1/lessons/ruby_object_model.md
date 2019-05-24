@@ -2,6 +2,7 @@
 title: Ruby Object Model
 length: 120
 tags: ruby, class, ancestor, binding, superclass
+layout: page
 ---
 
 ## Agenda

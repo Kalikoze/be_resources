@@ -2,6 +2,7 @@
 title: Nested Collections
 length: 60
 tags: ruby, hashes, data structures
+layout: page
 ---
 
 ## Learning Goals

@@ -2,7 +2,9 @@
 title: Scope
 length: 90
 tags: methods, scopes, arguments, ruby
+layout: page
 ---
+
 ## Agenda
 
 - Warm Up/Intro - 5 mins

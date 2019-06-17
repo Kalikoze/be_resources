@@ -54,7 +54,7 @@ These challenges focus on a single problem or task and typically require one cla
 
 The week 2 challenge is an intro to Object Oriented Programming. It will require students to build two classes that interact, as well as use an enumerable.
 
-* [Potluck](https://github.com/turingschool-examples/potluck)(Public)
+* [Potluck](https://github.com/turingschool-examples/potluck) - practice
 * [Real Estate](https://github.com/turingschool/real_estate) - [1901](https://github.com/turingschool-examples/real_estate_1901)
 * [OpenMic](https://github.com/turingschool/open_mic) - 1903, 1904
 
@@ -80,7 +80,7 @@ The week 5 and 6 challenges are a test of a student's knowledge of OOP and Ruby 
 
 The week 5 challenge will be a practice for the final in week 6.
 
-* [Reunion](https://github.com/turingschool-examples/reunion)(Public)
+* [Reunion](https://github.com/turingschool-examples/reunion) - practice
 * [Market](https://github.com/turingschool/market) - 1901, 1904
 * [Pantry](https://github.com/turingschool-examples/pantry) - 1903
 * [Museo](https://github.com/turingschool/museo)

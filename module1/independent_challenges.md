@@ -14,9 +14,11 @@ Independent Challenges are listed below by week, one of which is marked "public"
 * 1808
   * Week 5: Market
   * Final: Pantry
+  
 * 1810
   * Week 5: Pantry
   * Final: Museo
+  
 * 1811
   * Week 5: Museo
   * Final: Market
@@ -24,8 +26,13 @@ Independent Challenges are listed below by week, one of which is marked "public"
 * 1901
   * Week 5: Market
   * Final: Pantry
+  
 * 1903
   * Week 5: Pantry
+  * Final: Museo
+
+* 1904
+  * Week 5: Market
   * Final: Museo
 
 This rotation means that any student who repeats will not be given the same final twice
@@ -49,23 +56,23 @@ The week 2 challenge is an intro to Object Oriented Programming. It will require
 
 * [Potluck](https://github.com/turingschool-examples/potluck)(Public)
 * [Real Estate](https://github.com/turingschool/real_estate) - [1901](https://github.com/turingschool-examples/real_estate_1901)
-* [OpenMic](https://github.com/turingschool/open_mic) - 1903
+* [OpenMic](https://github.com/turingschool/open_mic) - 1903, 1904
 
 ## Week 3
 
 The week 3 challenge will require students to build three classes that interact. It will also involve a more complex enumeration problem that can't be solved with a single enumerable. Students will also need to access a Hash.
 
-* [World Cup](https://github.com/turingschool-examples/world_cup)(Public)
-* [Market Street Apartments](https://github.com/turingschool/market_st_apartments) - [1901](https://github.com/turingschool-examples/market_st_apartments_1901)
-* [TV Network](https://github.com/turingschool/tv_network) - [1903](https://github.com/turingschool-examples/tv_network_1903)
+* [World Cup](https://github.com/turingschool-examples/world_cup) - practice
+* [Market Street Apartments](https://github.com/turingschool/market_st_apartments) - 1901, 1904
+* [TV Network](https://github.com/turingschool/tv_network) - 1903
 
 ## Week 4
 
 The week 3 challenge will require students to build three classes that interact. Students must think algorithmically to build an Object Oriented solution that solves the problem. Students will also be required to build a hash.
 
-* [Boat Rental](https://github.com/turingschool-examples/boat_rental)(Public)
-* [Museum](https://github.com/turingschool/museum) - [1903](https://github.com/turingschool-examples/museum_3)
-* [Denver Public Library](https://github.com/turingschool/denver_public_library) - [1901](https://github.com/turingschool-examples/dpl_1901)
+* [Boat Rental](https://github.com/turingschool-examples/boat_rental) - practice
+* [Museum](https://github.com/turingschool/museum) - 1903
+* [Denver Public Library](https://github.com/turingschool/denver_public_library) - 1901, 1904
 
 ## Weeks 5 and 6
 
@@ -74,7 +81,7 @@ The week 5 and 6 challenges are a test of a student's knowledge of OOP and Ruby 
 The week 5 challenge will be a practice for the final in week 6.
 
 * [Reunion](https://github.com/turingschool-examples/reunion)(Public)
-* [Market](https://github.com/turingschool/market) - [1901](https://github.com/turingschool-examples/market_1901)
+* [Market](https://github.com/turingschool/market) - 1901, 1904
 * [Pantry](https://github.com/turingschool-examples/pantry) - 1903
 * [Museo](https://github.com/turingschool/museo)
 

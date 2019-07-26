@@ -43,4 +43,4 @@ This rotation ensures that a repeater will have a different final each time.
 
 Paired assessments will be graded on [this Rubric](/module1/paired_rubric.html)
 
-The Mid Module and Final Paired Assessment scores will be submitted by instructors to the private [Student Assessments repo](https://github.com/turingschool/student-assessments).
+The Mid Module and Final Paired Assessment scores will be submitted on the mod 1 tracking document within the Paired Assessments tab. 

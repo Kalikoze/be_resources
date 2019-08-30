@@ -1,3 +1,8 @@
+---
+layout: page
+title: enums 2
+---
+
 ## Learning Goals
 * Understand Block Return Values
 * Be able to use `max`, `max_by,` their opposites, `sort_by`, and `all?` appropriately.
@@ -19,41 +24,41 @@ How do the enumerables we know so far work under the hood? Work through this sec
 
 Students will complete this work with the provided worksheet - https://docs.google.com/document/d/1cYYAhiAep0Ry_4fPZxnqCVr8i5nCKYIJw0BU59vOcNg/edit
 
-## Stations 
+## Stations
 
-Station Setup: 4-5 stations should be set up for: 
+Station Setup: 4-5 stations should be set up for:
   1. min/max
   2. max_by
   3. /min_by
   4. sort and sort_by
   5. (optional) all? and any?
-  
+
 Groups should be created:
   - Table leaders (4-5)
   - Groups of 4-5 to equally fill stations (might want to group all struggling students together, then instructor should closely follow that group for additional support).
-  
-Assign each group a starting station and determine a direction for rotation. Each group will have 10 minutes at each station. 
+
+Assign each group a starting station and determine a direction for rotation. Each group will have 10 minutes at each station.
 
 The station should start with the table leader explaining the purpose of this enum, and showing some examples of how it can be used. They should talk about the return value. Then, students should practice using that enum with the provided exercises. Make sure to provide the table leader with a key. This google doc has materials for all stations in case you'd like to print out: https://docs.google.com/document/d/1dk4qggP1mGv9cCUUBCN-aNdDKMQM1d95eZcxbGrbnTQ/edit
-  
-## min / max
-[Repl](https://repl.it/@ameseee/min-max) 
 
-## min_by 
-[Repl](https://repl.it/@ameseee/minby) 
+## min / max
+[Repl](https://repl.it/@ameseee/min-max)
+
+## min_by
+[Repl](https://repl.it/@ameseee/minby)
 
 ## max_by
-[Repl](https://repl.it/@ameseee/maxby) 
+[Repl](https://repl.it/@ameseee/maxby)
 
 ## sort & sort_by
-[Repl](https://repl.it/@ameseee/sort-and-sortby) 
+[Repl](https://repl.it/@ameseee/sort-and-sortby)
 
 ## all? & any?
-[Repl](https://repl.it/@ameseee/any-and-all) 
+[Repl](https://repl.it/@ameseee/any-and-all)
 
 
 #### Now you try:
-- First, complete the back of your warm up worksheet. 
+- First, complete the back of your warm up worksheet.
 - Students should first determine the best-use enum, THEN write a solution.
 
 ```ruby

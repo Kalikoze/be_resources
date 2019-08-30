@@ -11,11 +11,12 @@ In Module 1, students will learn:
 
 Throughout Module 1, students will complete:
 
-* [Projects](/module1/projects/)
+* [Lessons](/module1/lessons/index.html)
+* [Projects](/module1/projects/index.html)
 * [Independent Challenges](/module1/independent_challenges.html)
 * [Paired Assessments](/module1/paired_assessments.html)
 
-Instructor [Checklists](/module1/checklists/weekly.html)
+Instructor [Checklists](/module1/weekly-checklists.html)
 
 Guidelines for promotion [can be found here.](/module1/promotion.html)
 

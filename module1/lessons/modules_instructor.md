@@ -1,6 +1,11 @@
-## Instructor Prep 
-- Print out [guided notes](https://docs.google.com/document/d/1biTT6CJcYamov1g8vqysJjWkczZG9gxDZdZ34_jZplI/edit?usp=sharing) for students 
-- Send students [practice repo](https://github.com/turingschool-examples/vehicles_driving) and have them clone it down before class 
+---
+layout: page
+title: Modules
+---
+
+## Instructor Prep
+- Print out [guided notes](https://docs.google.com/document/d/1biTT6CJcYamov1g8vqysJjWkczZG9gxDZdZ34_jZplI/edit?usp=sharing) for students
+- Send students [practice repo](https://github.com/turingschool-examples/vehicles_driving) and have them clone it down before class
 - Have [repo for class](https://github.com/turingschool-examples/online_orders) and [practice repo](https://github.com/turingschool-examples/vehicles_driving) ready and pulled up in text editor.
 - Have [slides](https://docs.google.com/presentation/d/1ju54LoCCh31VQOC-gKCzKfqR7AbxkV4EC-VmAxRbtjs/edit?usp=sharing) ready.
 
@@ -25,20 +30,20 @@ Spend the first five minutes writing answers to the following questions:
 
 ## Introduction
 
-Have students skip to the mixin part of their notes and fill in the notes about modules based off of the slide after warmups (slide 3). 
+Have students skip to the mixin part of their notes and fill in the notes about modules based off of the slide after warmups (slide 3).
 
 
 ### Mixins
 
-### Modules 
+### Modules
 
-- Instructor - show students the code for both files (grubhub_order.rb and amazon_order.rb) side by side in your text editor. 
+- Instructor - show students the code for both files (grubhub_order.rb and amazon_order.rb) side by side in your text editor.
 - BEFORE you run it, have them use the code snippet at the top of their guided notes to write their predictions for what each line will return. (5 minutes)
 - Answer the T&T questions after writing predictions(2 minutes)
 - Drop into pry and run the code for the whole class (4 minutes)
 
 
-Let's make some online orders 
+Let's make some online orders
 
 `touch grubhub_order.rb`
 
@@ -98,17 +103,17 @@ amazon.delivery
 grub.delivery
 ```
 
-**Turn & Talk:** 
+**Turn & Talk:**
 
 - What is similar/different between the two classes (GrubHub v Amazon)?
   * Expected answers - review and confirmation are the same, delivery has a different timeline.
 - What design principle(s) are we breaking with these two classes? Explain.
-  * DRY 
-  
-Let's extract the duplication using Modules - online orders 
+  * DRY
 
-Instructor: 
-- Walk through the creation of the OnlineOrder module. 
+Let's extract the duplication using Modules - online orders
+
+Instructor:
+- Walk through the creation of the OnlineOrder module.
 - Then you run the code by dropping into pry.
 
 `touch online_order.rb`
@@ -125,7 +130,7 @@ module OnlineOrder
 end
 ```
 
-To get access to the methods defined in the module, you will include the module at the beginning of the class. Using include allows you to call the module methods on an instance. 
+To get access to the methods defined in the module, you will include the module at the beginning of the class. Using include allows you to call the module methods on an instance.
 
 In `amazon_order.rb`
 
@@ -199,5 +204,5 @@ Directions in student-facing resource
 
 Instructor - up to you as to how you want to collect data, do this in pairs, journals, PollEv, etc.
 
-* What is a module? How is it different than a class? 
-* How do you use a module? 
+* What is a module? How is it different than a class?
+* How do you use a module?

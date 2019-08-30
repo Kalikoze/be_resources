@@ -22,9 +22,8 @@ During the assessment, students should tell instructors what to type. However, s
 If a student needs to make a button in a view, here are some example responses:
 
 **ideal:**
-```
-Make some visible erb tags with a button_to that has an identifier of "Add Song", a path '/songs' and a verb of 'post'
-```
+
+> Make some visible erb tags with a button_to that has an identifier of "Add Song", a path '/songs' and a verb of 'post'
 
 **good:**
 ```

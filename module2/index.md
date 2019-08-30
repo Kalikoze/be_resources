@@ -5,7 +5,6 @@ layout: page
 
 [previous operations document for mod 2](https://docs.google.com/document/d/10ay_Ybf4tuAVel8IeFYcmWd6cZmhVkuPqZk2xbMiBpY/edit#heading=h.bofaxb51bvao)
 
-
 In Module 2, students will learn:
 
 * Basic Web Application development in Rails
@@ -13,15 +12,14 @@ In Module 2, students will learn:
 * ActiveRecord/SQL and database interactions
 
 * [Lessons](/module2/lessons)
-* [Challenges](/module2/challenges)
-* [Paired Assessments](/module2/paired_assessments)
 
 Throughout Module 2, students will complete:
 
+* [Challenges](/module2/challenges)
 * [Projects](/module2/projects)
 * [Paired Assessments](/module2/paired_assessments.html)
 
-Guidelines for promotion [can be found here.](/module2/promotion.html)
+Checklists:
 
-[Premod Checklist](./checklists/premod)
-[Weekly Checklist](./checklists/weekly)
+* [Premod Checklist](./checklists/premod)
+* [Weekly Checklist](./checklists/weekly)

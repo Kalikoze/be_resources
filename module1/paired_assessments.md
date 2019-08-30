@@ -36,7 +36,10 @@ Instructors should use the Final from the previous cohort as the Mid Mod. A samp
 * 1906 
   * Mid Mod: Students and Courses 
   * Final: Passengers and Vehicles
-  
+* 1908
+  * Mid Mod: Employees and Departments
+  * Final: Students and Courses
+
 This rotation ensures that a repeater will have a different final each time.
 
 ### Grading

@@ -19,8 +19,8 @@ Students will participate in a final assessment that will count towards promotio
 
 Students should fork and clone the following repositories and use their forks to complete the prework tasks.
 
-[Mid Mod Prework Repo](https://github.com/turingschool/B2_mid_mod)
-[Final Prework Repo](https://github.com/turingschool/final_b2_prework)
+* [Mid Mod Prework Repo](https://github.com/turingschool/B2_mid_mod)
+* [Final Prework Repo](https://github.com/turingschool/final_b2_prework)
 
 Each module, instructors should create a copy of the repo into a new, public facing repo under the `turingschool-examples` organization.
 
@@ -28,8 +28,8 @@ Each module, instructors should create a copy of the repo into a new, public fac
 
 The following repositories contain the prework, assessment user stories, retake user stories, and examples of code that completes those stories.
 
-[Mid Mod Instructor Repo](https://github.com/turingschool/book_club_mid_mod)
-[Final Instructor Repo](https://github.com/turingschool/final_b2)
+* [Mid Mod Instructor Repo](https://github.com/turingschool/book_club_mid_mod)
+* [Final Instructor Repo](https://github.com/turingschool/final_b2)
 
 ## Conducting the Assessment
 

@@ -17,7 +17,7 @@ Each module, instructors should create a copy of the repo into a new, public fac
 
 ## Conducting the Assessment
 
-During the assessment, students should tell instructors what to type. However, students should be encouraged to use technical language rather than saying exactly what characters to type. However, if they choose to use high level, technical language, they should still be specific about what they want.
+During the assessment, students should tell instructors what to type. However, students should be encouraged to use high level technical language rather than saying exactly what characters to type. However, if they choose to use high level, technical language, they should still be specific about what they want.
 
 If a student needs to make a button in a view, here are some example response:
 

@@ -8,11 +8,13 @@ layout: page
 
 In Module 2, students will learn:
 
-* Basic Web Application development in Sinatra and Rails
+* Basic Web Application development in Rails
 * Basic unit and feature testing strategies for web applications
 * ActiveRecord/SQL and database interactions
 
-[Lessons](/module2/lessons)
+* [Lessons](/module2/lessons)
+* [Challenges](/module2/challenges)
+* [Paired Assessments](/module2/paired_assessments)
 
 Throughout Module 2, students will complete:
 

@@ -26,14 +26,14 @@ If a student needs to make a button in a view, here are some example responses:
 > Make some visible erb tags with a button_to that has an identifier of "Add Song", a path '/songs' and a verb of 'post'
 
 **good:**
-```
-Make some visible erb tags with button_to, quotes add song, comma quotes slash songs, comma method colon space colon post
-```
+
+> Make some visible erb tags with button_to, quotes add song, comma quotes slash songs, comma method colon space colon post
+
 
 **not specific enough**
-```
-Make a button that goes to the song create route
-```
+
+> Make a button that goes to the song create route
+
 
 If a student is not able to describe the task with high level language or specific syntax, the instructor should help them through the task
 
@@ -51,19 +51,20 @@ Students should be able to describe the components of each, but not necessarily 
 If a student needs to create a form, here are some example answers:
 
 **ideal**
-```
-Make visible erb tags with a form_tag that submits to a path of "/songs" with a verb of "post", and a do block. It will also need an end in invisible erb tags. Inside the block, we'll need a visible erb tags with a label_tag and a symbol of title, as well as a visible erb tag with a text_field_tag and a symbol of title. Finally, we'll need a submit_tag inside visible erb tags.
-```
+
+
+> Make visible erb tags with a form_tag that submits to a path of "/songs" with a verb of "post", and a do block. It will also need an end in invisible erb tags. Inside the block, we'll need a visible erb tags with a label_tag and a symbol of title, as well as a visible erb tag with a text_field_tag and a symbol of title. Finally, we'll need a submit_tag inside visible erb tags.
+
 
 **good**
-```
-Make visible erb tags with a form_tag, with a path of "/songs" and a verb of "post". Then we'll need a field for the title and a submit button. (In this case, the student has not described the do/end block or the syntax for creating the fields and submit button).
-```
+
+> Make visible erb tags with a form_tag, with a path of "/songs" and a verb of "post". Then we'll need a field for the title and a submit button. (In this case, the student has not described the do/end block or the syntax for creating the fields and submit button).
+
 
 **not specific enough**
-```
-Make a form_tag. It's also going to need a field for the title. (In this case, the student has left off the core components of verb, path, and submit button.
-```
+
+> Make a form_tag. It's also going to need a field for the title. (In this case, the student has left off the core components of verb, path, and submit button.
+
 
 ## Rubric
 

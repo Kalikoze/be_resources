@@ -15,7 +15,7 @@ In Module 2, students will learn:
 
 Throughout Module 2, students will complete:
 
-* [Challenges](/module2/challenges)
+* [Challenges](/module2/challenges.html)
 * [Projects](/module2/projects)
 * [Paired Assessments](/module2/paired_assessments.html)
 

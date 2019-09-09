@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Activity 5
+title: Activity 6
 ---
 
 Use the following tables of data:

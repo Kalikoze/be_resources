@@ -2,7 +2,6 @@
 layout: page
 ---
 
-
 | id | title  | length  | play_count  | artist_id |
 |---|---|---|---|---|
 | 1 | This Must Be the Place | 345 | 23 | 1 |
@@ -15,5 +14,6 @@ layout: page
 | id | name |
 | -- | ---- |
 | 1 | Talking Heads |
+| 1 | Talking Hveads |
 | 2 | Journey |
 | 3 | Zac Brown Band |

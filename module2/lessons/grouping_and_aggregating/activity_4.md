@@ -50,6 +50,21 @@ select * from songs inner join artists on songs.artist_id = artists.id where pla
     | 2 | Journey |
     | 3 | Zac Brown Band |
 
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
 2. Perform the `inner join` statement. Simulate this by matching rows from both tables (note: duplicate rows have been included in the materials):
 
     | id | title  | length  | play_count  | artist_id | id | name |

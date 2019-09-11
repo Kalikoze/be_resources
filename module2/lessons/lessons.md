@@ -7,3 +7,4 @@ This is a collection of lesson plans/activities that are not captured in the stu
 
 * [Grouping and Aggregating](/module2/lessons/grouping_and_aggregating/index.html)
 * [Cookies and Sessions](/module2/lessons/cookies_and_sessions.html)
+* [Hash Functions](/module2/lessons/hash_functions.html)

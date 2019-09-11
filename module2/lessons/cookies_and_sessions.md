@@ -27,13 +27,13 @@ First, demonstrate client/server interaction with no cookies:
 
 **Turn and Talk:** Why are the notecards being thrown on the ground?
 
-Answer: HTTP is stateless by nature. Once a request/response is delivered, it is discarded. We have no knowledge of previous request responses. If we need to remember something about previous interactions, we need to use cookies.
+Answer: HTTP is stateless by nature. Once a request/response is delivered, it is discarded. We have no knowledge of previous request/responses. If we need to remember something about previous interactions, we need to use cookies.
 
 **Turn and Talk:** What are some examples of previous interactions that need to be remembered?
 
 Expected answers: logging in and carts.
 
-## Logging In
+### Logging In
 
 Next, demo logging in:
 
@@ -57,7 +57,7 @@ Rules for this interaction:
 
 **Turn and Talk:**  explain to your partner what each part of this demonstration represents in terms of http and cookies.
 
-## Cart
+### Cart
 
 Do another example demonstrating a cart:
 
@@ -67,7 +67,7 @@ Do another example demonstrating a cart:
 1. Repeat this process with the other students, each buying a unique item.
 1. Do another round where each student buys another item. Have one student buy the same thing again, so the new cookie will just update the quantity. Have another student buy something new, so that it adds a new entry to the cookie.
 
-## Checkout
+### Checkout
 
 Demo a checkout:
 

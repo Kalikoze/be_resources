@@ -7,6 +7,5 @@ layout: page
 * [Instructor Facing Lessons](/module2/lessons/lessons.html)
 * [Challenges](/module2/challenges.html)
 * [Paired Assessments](/module2/paired_assessments.html)
-* [Projects](/module2/projects)
 * [Premod Checklist](./checklists/premod)
 * [Weekly Checklist](./checklists/weekly)

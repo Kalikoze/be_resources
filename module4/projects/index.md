@@ -6,18 +6,18 @@ layout: page
 ### Projects
 
 Week 1: Solo
-* [Sweater Weather](/module4/projects/sweater_weather.md)
+* [Sweater Weather](/module4/projects/sweater_weather.html)
 * Need to work with Mod3 to develop another idea so we can rotate every inning
 
 Week 2 - 3: Paired
-* [Play](/module4/projects/play.md)
-* [Quantified Self](/module4/projects/quantified_self.md)
+* [Play](/module4/projects/play.html)
+* [Quantified Self](/module4/projects/quantified_self.html)
 
 Week 4 - 5: Group
-* [Cross-Pollination](/module4/projects/cross_pollination)
+* [Cross-Pollination](/module4/projects/cross_pollination.html)
 
 Week 6: Solo
-* [Take Home Challenge](/module4/projects/take_home.md)
+* [Take Home Challenge](/module4/projects/take_home.html)
 * We could use more resources here, particularly brownfield as we are noticing many grads get projects to fix bugs/add features.
 
 

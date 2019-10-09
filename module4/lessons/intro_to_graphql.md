@@ -260,7 +260,8 @@ app.use('/graphql', express_graphql({
 app.listen(3000, ()=> console.log('Express GraphQL Server Now Running On localhost:3000/graphql'));
 ```
 
-When we run `npm start` and visit `http://localhost:3000/graphql` we will see an interactive GraphQL window.
+When we run `node index.js` and visit `http://localhost:3000/graphql` we get an error, because we need to build our schema and resolver first.
+
 
 ## Design Our Simple Pet-Owner App
 
@@ -286,7 +287,6 @@ const schema = buildSchema(`
     breed: String
     age: Int
     favoriteTreat: String
-    owner: Owner
   }
 `);
 ```
@@ -315,14 +315,56 @@ var getPet = function(arguments) { // args come from GraphQL query
 };
 ```
 
-This fails, because we're referencing "pets" which doesn't exist, so ABOVE the function we just made, let's add a way to store pets: (non-database version)
+Let's go see if that works in our interactive GraphQL interface:
+
+```
+query {
+  pet(id: 1) {
+    name
+  }
+}
+```
+
+This returns "null", because our function is referencing a "pets" variable which doesn't exist, so ABOVE the function we just made, let's add a way to store pets: (non-database version)
 
 ```javascript
 var pets = [
   {
     id: 1,
     name: '',
-    animaleType: '',
+    animalType: '',
+    breed: '',
+    age: 3,
+    favoriteTreat: 'carrots',
+  }
+];
+```
+
+This still returns a "null" for us ... because we haven't told GraphQL to "resolve" anything for us.
+
+```javascript
+const root_resolver = { // resolver
+  pet: getPet, // query: function
+};
+```
+
+Let's run our query again:
+```
+query {
+  pet(id: 1) {
+    name
+  }
+}
+```
+
+Next, lets add an owner to our pet.
+
+```javascript
+var pets = [
+  {
+    id: 1,
+    name: '',
+    animalType: '',
     breed: '',
     age: 3,
     favoriteTreat: 'carrots',
@@ -334,7 +376,7 @@ var pets = [
 ];
 ```
 
-Wait, we're referencing an Owner that doesn't exist yet! Let's go add Owner to our schema!
+Also, in our schema, we need to specify that our Pet object belongs to an Owner object
 
 ```
   type Pet {
@@ -346,79 +388,15 @@ Wait, we're referencing an Owner that doesn't exist yet! Let's go add Owner to o
     favorite_treat: String
     owner: Owner
   }
+```
+
+Wait, we're referencing an Owner that doesn't exist yet! Let's go add Owner to our schema!
+
+```
   type Owner {
     id: Int
     name: String
-    pets: [Pet]
   }
-```
-
-But now we should probably add a mimic 'owners' database too:
-
-```javascript
-var owners = [
-  {
-    id: 1,
-    name: "Jane Doe",
-    pets: [
-      {
-        id: 1,
-        name: "Bubbles",
-        animalType: "dog",
-        breed: "Boston Terrier",
-        age: 3,
-        favorite_treat: "blueberries"
-      }
-    ]
-  }
-];
-```
-
-But this will only work if we tell Express how to tie some of this together, so let's change our index.js file a little more:
-
-```javascript
-const express = require("express");
-const express_graphql = require("express-graphql");
-const { buildSchema } = require("graphql");
-
-const schema = buildSchema(`...`);
-
-var owners = [...];
-var pets = [...];
-
-var getPet = function(arguments) {
-  let id = arguments.id;
-  return pets.filter(pet => {
-    return pet.id == id;
-  })[0];
-};
-
-const root_resolver = { // resolver
-  pet: getPet, // query: function
-};
-
-const app = express();
-
-app.use(
-  "/graphql",
-  express_graphql({
-    schema: schema,
-    rootValue: root_resolver, // our resolver
-    graphiql: true
-  })
-);
-
-app.listen(...)
-```
-
-Let's go write a query in the browser to fetch our pet's name:
-
-```
-query {
-  pet(id: 1) {
-    name
-  }
-}
 ```
 
 ### Turn & Talk
@@ -435,6 +413,7 @@ query {
   }
 }
 ```
+
 
 ### Fetch All Pets
 
@@ -487,6 +466,13 @@ query {
   }
 }
 ```
+
+Let's add more pets!!
+
+
+### Turn & Talk:
+
+How can we filter just the cats or dogs?
 
 And let's try it with our animalType parameter:
 
@@ -551,7 +537,7 @@ Let's give it a try:
 
 ```
 mutation {
-  updatePetName(id: 1, name: "mickey") {
+  updatePetName(id: 1, new_name: "mickey") {
     id
     name
   }

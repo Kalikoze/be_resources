@@ -9,7 +9,7 @@ layout: page
 - Modules & Exporting
 - Solo Project Kickoff
 
-- [Intro to Express & Sequelize](/modules4/lessons/express_and_sequelize.html)
+- [Intro to Express & Sequelize](/module4/lessons/express_and_sequelize.html)
 - JavaScript Testing
 
 - Async JavaScript & Promises
@@ -23,7 +23,7 @@ layout: page
 - Scaling Apps and Picking The Right Tools
 - Writing User Stories
 
-- [Intro to GraphQL](/modules4/lessons/intro_to_graphql.html)
+- [Intro to GraphQL](/module4/lessons/intro_to_graphql.html)
 - Workflow Best Practices
 - Git 2.0
 
@@ -44,4 +44,4 @@ layout: page
 
 # Week 5
 
-- [Big O](/modules4/lessons/big_o_outline.html)
+- [Big O](/module4/lessons/big_o_outline.html)

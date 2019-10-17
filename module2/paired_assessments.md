@@ -29,7 +29,8 @@ Each module, instructors should create a copy of the repo into a new, public fac
 
 The following repositories contain the prework, assessment user stories, retake user stories, and examples of code that completes those stories.
 
-* [Mid Mod Instructor Repo](https://github.com/turingschool/book_club_mid_mod)
+* [Mid Mod Instructor Repo (for version 1 mid mod)](https://github.com/turingschool/book_club_mid_mod)
+* [Mid Mod Instructor Repo (for version 2 mid mod)](https://github.com/turingschool/instructor_students_mid_mod)
 * [Final Instructor Repo](https://github.com/turingschool/final_b2)
 
 ## Conducting the Assessment

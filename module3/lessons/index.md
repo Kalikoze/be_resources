@@ -5,4 +5,4 @@ layout: page
 
 # Week 1
 
-- [Advanced ActiveRecord](/module3/lessons/advanced_activerecord)
+- [Advanced ActiveRecord](/module3/lessons/advanced_activerecord.html)

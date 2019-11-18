@@ -5,6 +5,8 @@ length: 180
 tags: rails, active record
 ---
 
+Student-Facing Lesson: https://backend.turing.io/module3/lessons/advanced_activerecord
+
 ## Learning Goals
 
 * Students can diagram database relationships.

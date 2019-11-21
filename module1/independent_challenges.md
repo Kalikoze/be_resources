@@ -47,6 +47,11 @@ Independent Challenges are listed below by week, one of which is marked "public"
   * Week 5: Museo
   * Final: Pantry
   
+* 1911
+  * Week 5: Pantry
+  * Week 6: Market
+
+  
 This rotation means that any student who repeats will not be given the same final twice
 
 The instructor needs to delete the turingschool-example repo (if there is one) and recreate it so that past pull requests are not visible. Then they need to copy the readme from the private turingschool repo to the public turingschool-example repo.
@@ -68,14 +73,14 @@ The week 2 challenge is an intro to Object Oriented Programming. It will require
 
 * [Potluck](https://github.com/turingschool-examples/potluck) - practice
 * [Real Estate](https://github.com/turingschool/real_estate) - 1901, 1906, 1909
-* [OpenMic](https://github.com/turingschool/open_mic) - 1903, 1904, 1908
+* [OpenMic](https://github.com/turingschool/open_mic) - 1903, 1904, 1908, 1911
 
 ## Week 3
 
 The week 3 challenge will require students to build three classes that interact. It will also involve a more complex enumeration problem that can't be solved with a single enumerable. Students will also need to access a Hash.
 
 * [World Cup](https://github.com/turingschool-examples/world_cup) - practice
-* [Market Street Apartments](https://github.com/turingschool/market_st_apartments) - 1901, 1904, 1908
+* [Market Street Apartments](https://github.com/turingschool/market_st_apartments) - 1901, 1904, 1908, 1911
 * [TV Network](https://github.com/turingschool/tv_network) - 1903, 1906, 1909
 
 ## Week 4
@@ -84,7 +89,7 @@ The week 3 challenge will require students to build three classes that interact.
 
 * [Boat Rental](https://github.com/turingschool-examples/boat_rental) - practice
 * [Museum](https://github.com/turingschool/museum) - 1903, 1906, 1909
-* [Denver Public Library](https://github.com/turingschool/denver_public_library) - 1901, 1904, 1908
+* [Denver Public Library](https://github.com/turingschool/denver_public_library) - 1901, 1904, 1908, 1911
 
 ## Weeks 5 and 6
 

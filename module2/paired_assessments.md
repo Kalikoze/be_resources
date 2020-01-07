@@ -9,7 +9,7 @@ For Module 2 assessments, students will complete prework before the assessment. 
 
 Students will participate in a mid-module assessment ("mid-mod") that does NOT count towards promotion. It is simply a checkpoint progress indicator of which concepts each student has learned and is able to apply. Students are encouraged to focus mentoring and pairing sessions around topics where they did not perform adequately in the mid-mod.
 
-## Final
+## Final - Driver/Navigator 
 
 Students will participate in a final assessment that will count towards promotion. If students do not pass the final, they will be given an independent retake.
 
@@ -92,3 +92,8 @@ If a student needs to create a form, here are some example answers:
 | 3 | Student effectively and independently uses appropriate Rails syntax to complete the user stories | Student adheres to the principles of MVC, with only one infraction. | Students appropriately choose class vs. instance methods. Students can CRUD resources using built in ActiveRecord methods and ActiveRecord associations. | Tests capture the behavior described in the user stories. Student demonstrates use of TDD, but may be prompted by the instructor once or twice. |
 | 2 | Student uses appropriate Rails syntax with instructor prompting, or does not complete the paired user story | Student does not adhere to the principles of MVC, demonstrated by up to 3 infractions. Student is able to describe the principles of MVC. | Student needs  prompting from instructor in order to use ActiveRecord to CRUD resources, or student makes an incorrect, or inappropriate choice of using a class or instance method. | Tests do not capture the behavior described in the user stories, and/or the student does not demonstrate consistent use of TDD |
 | 1 | Student fails to complete one or both of the prework user stories | Student has more than 3 infractions of MVC and/or can not describe the principle of MVC. | Student is unable to CRUD resources using ActiveRecord | Student is unable to write an effective test without significant instructor guidance. |
+
+## Final - Not Paired
+Make a copy of the repo below for the final. Students will be given 3 hours to complete the following repo. Students should fork and clone the repo and then submit a pull request to Turing. 
+
+[Field Trip](https://github.com/turingschool/field_trip)

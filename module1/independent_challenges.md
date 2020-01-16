@@ -51,6 +51,10 @@ Independent Challenges are listed below by week, one of which is marked "public"
   * Week 5: Pantry
   * Week 6: Market
 
+* 2001
+  * Week 5: Market
+  * Week 6: Museo
+
   
 This rotation means that any student who repeats will not be given the same final twice
 

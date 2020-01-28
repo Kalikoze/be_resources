@@ -3,9 +3,9 @@ title: Independent Challenges
 layout: page
 ---
 
-In week 6, students will participate in the Final Independent Assessment that will count towards the promotion decision. This is a 3 hour code challenge students will complete independently, meaning the student cannot seek help from other students, mentors, etc. Students are allowed to reference notes, other projects, and the internet.
+In week 6, students will participate in the Final Independent Assessment that will count towards the promotion decision. This is a 2 hour code challenge students will complete independently, meaning the student cannot seek help from other students, mentors, etc. Students are allowed to reference notes, other projects, and the internet.
 
-In order to practice for the Final Independent Assessment in week 6, students will be given a weekly practice Independent Challenge starting in week 2. They will be submitted using a Github Pull Request, and instructors will give feedback in the form of comments on the Pull Request. These are not formal assessments, but an opportunity for the student to practice their problem solving skills and receive feedback from instructors.
+In order to practice for the Final Independent Assessment in week 6, students will be given a weekly practice Independent Challenges. They will be submitted using a Github Pull Request, and instructors will give feedback in the form of comments on the Pull Request. These are not formal assessments, but an opportunity for the student to practice their problem solving skills and receive feedback from instructors.
 
 ## Administering Challenges
 
@@ -71,12 +71,17 @@ These challenges focus on a single problem or task and typically require one cla
 * [Caesar Cipher](https://github.com/turingschool-examples/caesar_cipher)
 * [Scrabble](https://github.com/turingschool-examples/scrabble)
 
+## Week 1
+The week 1 challenge is designed to assess students understanding of topics covered in Mod0 and week 1.  Given partway through the first week, it is also our first major data point on how students are doing technically and can help guide pairings for the paired project.
+
+* [School](https://github.com/turingschool/school_challenge)
+
 ## Week 2
 
 The week 2 challenge is an intro to Object Oriented Programming. It will require students to build two classes that interact, as well as use an enumerable.
 
 * [Potluck](https://github.com/turingschool-examples/potluck) - practice
-* [Real Estate](https://github.com/turingschool/real_estate) - 1901, 1906, 1909
+* [Real Estate](https://github.com/turingschool/real_estate) - 1901, 1906, 1909, 2001
 * [OpenMic](https://github.com/turingschool/open_mic) - 1903, 1904, 1908, 1911
 
 ## Week 3
@@ -85,14 +90,14 @@ The week 3 challenge will require students to build three classes that interact.
 
 * [World Cup](https://github.com/turingschool-examples/world_cup) - practice
 * [Market Street Apartments](https://github.com/turingschool/market_st_apartments) - 1901, 1904, 1908, 1911
-* [TV Network](https://github.com/turingschool/tv_network) - 1903, 1906, 1909
+* [TV Network](https://github.com/turingschool/tv_network) - 1903, 1906, 1909, 2001
 
 ## Week 4
 
 The week 3 challenge will require students to build three classes that interact. Students must think algorithmically to build an Object Oriented solution that solves the problem. Students will also be required to build a hash.
 
 * [Boat Rental](https://github.com/turingschool-examples/boat_rental) - practice
-* [Museum](https://github.com/turingschool/museum) - 1903, 1906, 1909
+* [Museum](https://github.com/turingschool/museum) - 1903, 1906, 1909, 2001
 * [Denver Public Library](https://github.com/turingschool/denver_public_library) - 1901, 1904, 1908, 1911
 
 ## Weeks 5 and 6

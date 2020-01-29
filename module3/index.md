@@ -12,7 +12,7 @@ layout: page
 
 ### Overviews
 
-* [Assessments](/module3/assessments.html)
+* [Assessments](/module3/assessments/index.html)
 * [Mid-Mods](/module3/mid-mods.html)
 * [Projects](/module3/projects.html)
 * [Lessons](/module3/lessons)

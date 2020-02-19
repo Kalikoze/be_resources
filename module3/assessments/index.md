@@ -5,7 +5,8 @@ layout: page
 
 ## Mid Mod
 
-* [Order of the Phoenix](https://github.com/turingschool-examples/order-of-the-phoenix)
+* [Order of the Phoenix](/module3/assessments/order_of_the_phoenix.html)
+* [What's in my Food?](/module3/assessments/whats_in_my_food.html)
 
 ## Week 4 Practice
 

@@ -15,6 +15,7 @@ layout: page
 ## Final
 
 * [Amypode](/module3/assessments/amypode.html)
+* [Giphy](/module3/assessments/giphy.html)
 
 ## Assessment Reminders
 

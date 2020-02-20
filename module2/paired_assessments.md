@@ -3,91 +3,97 @@ title: Paired Assessments
 layout: page
 ---
 
+For Module 2 assessments, students will complete prework before the assessment. They will push their code to their repository, and instructors will clone it during the assessments. The student and instructor will collaborate on a user story where the student is the "navigator" and an instructor is the "driver".
+
 ## Mid-Mod Evaluation
 
-In week 3, students will participate in a mid-module assessment ("mid-mod") that does NOT count towards promotion. It is simply a checkpoint progress indicator of which concepts each student has learned and is able to apply. Students are encouraged to focus mentoring and pairing sessions around topics where they did not perform adequately in the mid-mod.
+Students will participate in a mid-module assessment ("mid-mod") that does NOT count towards promotion. It is simply a checkpoint progress indicator of which concepts each student has learned and is able to apply. Students are encouraged to focus mentoring and pairing sessions around topics where they did not perform adequately in the mid-mod.
 
-Students are given a choice of a "theme" for the mid-mod. The implementation work is exactly the same.
+## Final - Driver/Navigator 
 
-* [core repo](https://github.com/turingschool/assessment_challenges/tree/master/_backend/2module_challenges/mid_mod_assessment)
-* [instructor notes for conducting a mid-mod assessment](https://github.com/turingschool/assessment_challenges/blob/master/_backend/2module_challenges/mid_mod_assessment/INSTRUCTOR_NOTES.md)
-* [rubric](https://github.com/turingschool/assessment_challenges/blob/master/_backend/2module_challenges/mid_mod_assessment/RUBRIC.md)
+Students will participate in a final assessment that will count towards promotion. If students do not pass the final, they will be given an independent retake.
 
-### Retake
+## Repositories
 
-There is no re-take for the mid-mod since it's an evaluation checkpoint only.
+#### Student Facing
 
+Students should fork and clone the following repositories and use their forks to complete the prework tasks.
 
-## Final Assessments
+* [Mid Mod Prework Repo (version 1)](https://github.com/turingschool/B2_mid_mod_1)
+* [Mid Mod Prework Repo (version 2)](https://github.com/turingschool/B2_mid_mod_2)
+* [Final Prework Repo](https://github.com/turingschool/final_b2_prework)
 
-In week 6, students have a closed-book Final Coding Assessment ("FCA") and a Technical Communication Assessment ("TCA") that WILL count towards their promotion decision.
+Each module, instructors should create a copy of the repo into a new, public facing repo under the `turingschool-examples` organization.
 
-The coding assessment is mostly based on lessons in weeks 3 through 5. The TCA is almost entirely based on weekly written CFU questions covered over the entire inning.
+#### Instructor Facing
 
-### Final Coding Assessment ("FCA")
+The following repositories contain the prework, assessment user stories, retake user stories, and examples of code that completes those stories.
 
-* [repo](https://github.com/turingschool/assessment_challenges/tree/master/_backend/2module_challenges/finals/paired_final_assessment)
-* [rubric](https://github.com/turingschool/assessment_challenges/blob/master/_backend/2module_challenges/finals/paired_final_assessment/README.md)
+* [Mid Mod Instructor Repo (for version 1 mid mod)](https://github.com/turingschool/book_club_mid_mod)
+* [Mid Mod Instructor Repo (for version 2 mid mod)](https://github.com/turingschool/instructor_students_mid_mod)
+* [Final Instructor Repo](https://github.com/turingschool/final_b2)
 
-It's important that the instructor conducting the FCA allows the student to struggle a little bit, but also provide some amount of help. If a student is weak in one area but performs adequately in other areas, the student could still pass. We don't want them to spin their wheels unnecessarily if a little nudge can get them un-stuck and continue successfully.
+## Conducting the Assessment
 
-#### Grading
+During the assessment, students should tell instructors what to type. However, students should be encouraged to use high level technical language rather than saying exactly what characters to type. However, if they choose to use high level, technical language, they should still be specific about what they want.
 
-Students will be graded on the rubric, noting a score of 0, 1 or 2 for each of 6 categories:
+If a student needs to make a button in a view, here are some example responses:
 
-- 0: the student could not demonstrate the skills; instructor had to help significantly with syntax and understanding to move forward with the assessment
-- 1: the student was able to implement most of the work in this area by themselves, but instructor needed to provide some amount of help
-- 2: student did all of the work without help from the instructor
+**ideal:**
 
-Outcome:
+> Make some visible erb tags with a button_to that has an identifier of "Add Song", a path '/songs' and a verb of 'post'
 
-- 11 points or better is a full pass with no concern (12 is a perfect score)
-- 10 points is a "pass with concern" and feedback should be given to the student immediately for which areas they need to improve over intermission; feedback should also be entered into their portfolio feedback.
-- 7 to 9 points is a "fail" and student is offered a retake. Let student know they need to block off a 2-hour period of time. (see below)
-- 6 points or below indicates that the student needed significant amounts of help, and they should repeat the module. Students who repeat and score 6 points or less will be dismissed with no retake.
+**good:**
 
-
-#### Retake
-
-If a student is offered a retake, they are given a 2-hour block of time to complete one of the following sets of user stories on the primary code-along repo built throughout the mod. Instructors will choose which retake the student will finish.
-
-This work is open-book, and passing grades are listed below.
-
-- add "Awards" to the code-along repo
-  - [user stories](https://github.com/turingschool/assessment_challenges/blob/master/_backend/2module_challenges/finals/awards.md)
-  - must finish at least 6 of 8 user stories to pass
-- add "Genres" to the code-along repo
-  - [user stories](https://github.com/turingschool/assessment_challenges/blob/master/_backend/2module_challenges/finals/genres.md)
-  - must finish at least 5 of 7 user stories to pass
-
-### Technical Communication Assessment ("TCA")
-
-* [repo](https://github.com/turingschool/assessment_challenges/blob/master/_backend/2module_challenges/1_final_verbal_questions.md)
-
-#### Grading
-
-At the instructor's discretion, answers are given a pass/fail for each of 14 questions. 11 of these questions come directly from written CFU questions that they have answered throughout the inning.
-
-Instructors are encouraged to rephrase the question at most one time to ensure the student is clearly articulating the technical content requested. If a student can answer at a high-level but cannot describe things at a deep, technical level, the instructor may still pass the student on a question, but note that they need to practice technical terminology over their upcoming intermission.
-
-Since 11 questions are directly from the CFU questions, a score of 10 out of 14 is considered a pass:
-
-- 13 or better: full pass
-- 10 to 12 points, pass w/concerns
-- 8 or 9 points, student is offered a retake
-- 7 or less: flag for repeat
-
-#### Retake
-
-If a student is unable to articulate their work well, a retake may be advised. Instruct the student that a one-hour period of time will be given to write out some additional work, also influenced by the CFUs. This work should also be closed-book, though this may be difficult to enforce.
-
-- [retake](https://docs.google.com/document/d/1_gvNWh_ak72s-mj5eUNmhGjVt0Gqsm908fHQKrtZms0/edit)
-
-The current final written assessment needs some clean-up to be more clear what the expectation is for each question.
-
-The instructor grading will provide a final grade of "pass", "pass with concern", or "fail" outcome on the entire document.
+> Make some visible erb tags with button_to, quotes add song, comma quotes slash songs, comma method colon space colon post
 
 
-## Grading
+**not specific enough**
 
-The mid-mod and finals scores will be submitted by instructors to the private [Student Assessments repo](https://github.com/turingschool/student-assessments), beginning with the 1811 cohort.
+> Make a button that goes to the song create route
+
+
+If a student is not able to describe the task with high level language or specific syntax, the instructor should help them through the task
+
+
+## Expectations:
+
+Students are not expected to have the exact syntax for certain tasks memorized. These are:
+
+* Filling in a form in a test
+* Creating a form
+* Strong params
+
+Students should be able to describe the components of each, but not necessarily the exact syntax.
+
+If a student needs to create a form, here are some example answers:
+
+**ideal**
+
+
+> Make visible erb tags with a form_tag that submits to a path of "/songs" with a verb of "post", and a do block. It will also need an end in invisible erb tags. Inside the block, we'll need a visible erb tags with a label_tag and a symbol of title, as well as a visible erb tag with a text_field_tag and a symbol of title. Finally, we'll need a submit_tag inside visible erb tags.
+
+
+**good**
+
+> Make visible erb tags with a form_tag, with a path of "/songs" and a verb of "post". Then we'll need a field for the title and a submit button. (In this case, the student has not described the do/end block or the syntax for creating the fields and submit button).
+
+
+**not specific enough**
+
+> Make a form_tag. It's also going to need a field for the title. (In this case, the student has left off the core components of verb, path, and submit button.
+
+
+## Rubric
+
+| | Rails Syntax | MVC | ActiveRecord | Testing and Debugging |
+| -- | -- | -- | -- | -- |
+| 4 | Students effectively use Rails methods or strategies not discussed in class, and can effectively defend their decision to use those tools. | Student strictly adheres to MVC, and can defend decisions of where functionality lives. | Highly effective and efficient use of ActiveRecord beyond what we've taught in class | Prework tests are extremely well organized and nested. Student demonstrates excellent TDD during paired assessment. |
+| 3 | Student effectively and independently uses appropriate Rails syntax to complete the user stories | Student adheres to the principles of MVC, with only one infraction. | Students appropriately choose class vs. instance methods. Students can CRUD resources using built in ActiveRecord methods and ActiveRecord associations. | Tests capture the behavior described in the user stories. Student demonstrates use of TDD, but may be prompted by the instructor once or twice. |
+| 2 | Student uses appropriate Rails syntax with instructor prompting, or does not complete the paired user story | Student does not adhere to the principles of MVC, demonstrated by up to 3 infractions. Student is able to describe the principles of MVC. | Student needs  prompting from instructor in order to use ActiveRecord to CRUD resources, or student makes an incorrect, or inappropriate choice of using a class or instance method. | Tests do not capture the behavior described in the user stories, and/or the student does not demonstrate consistent use of TDD |
+| 1 | Student fails to complete one or both of the prework user stories | Student has more than 3 infractions of MVC and/or can not describe the principle of MVC. | Student is unable to CRUD resources using ActiveRecord | Student is unable to write an effective test without significant instructor guidance. |
+
+## Final - Not Paired
+Make a copy of the repo below for the final. Students will be given 3 hours to complete the following repo. Students should fork and clone the repo and then submit a pull request to Turing. 
+
+[Field Trip](https://github.com/turingschool/field_trip)

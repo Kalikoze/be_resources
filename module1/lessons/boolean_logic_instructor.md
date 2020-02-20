@@ -2,6 +2,7 @@
 title: Boolean Logic
 length: 60
 tags: boolean, truthy, falsey, flow control
+layout: page
 ---
 
 ## Agenda

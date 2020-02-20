@@ -65,3 +65,122 @@ layout: page
 
 ## PollEv CFU
 Create a PollEv group of questions using the exploration questions from the student-facing resource. 
+
+---
+
+## Practical Use, Experimentation
+
+In mod 2, students will learn about ActiveRecord, so the following exercises will have them build similar methods to emulate what the database is doing.
+
+### Getting Started
+
+Download the following CSV of popular baby names:
+
+https://data.cityofnewyork.us/api/views/25th-nujf/rows.csv?accessType=DOWNLOAD
+
+Place this CSV file in the same folder as a new Ruby script you'll call "name.rb"
+
+In that name.rb, start with the following code:
+
+```ruby
+require 'csv'
+require 'pry'
+
+class Name
+  attr_reader :year, :bio_gender, :ethnicity, :name, :count, :rank
+  @@filename = 'Popular_Baby_Names.csv'
+
+  def initialize(data)
+    @year = 
+    @bio_gender = 
+    @ethnicity = 
+    @name = 
+    @count = 
+    @rank = 
+  end
+
+  def self.find_by_name(name)
+    rows = CSV.read(@@filename, headers: true)
+    result = []
+    
+    # new code goes here
+    
+    result
+  end
+```
+
+1. Students will be asked to finish the `find_by_name`; encourage them to manage this is a case-sensitive way
+  1. how many rows of data can you find for the following names:
+    1. Ian (21), MEGAN (10), Sal (0), Omar (18), Riley (33), HUNTER (14)
+    
+```ruby
+  # example
+  def self.find_by_name(name)
+    rows = CSV.read(@@filename, headers: true)
+    result = []
+    rows.each do |row|
+      if row['name'] == name
+        result << Name.new(row)
+      end
+    end
+    result
+  end
+```
+    
+2. Students will then copy that method to do the same work for finding data by another column in a `find_by_year` or `find_by_rank` etc.
+
+3. Students will build `self.where` which takes a hash of details, and builds an array of `Name` objects that match the CSV data. This method will need to copy the `CSV.read` line from our `self.find_by_name` method.
+  1. how many rows of data can you find for:
+    1. Rows with a rank of 25 (140)
+    2. Rows with a bio_gender of male (9485)? of female (9933)?
+    3. Rows with an ethnicity of "BLACK NON HISPANIC"? (2826)
+
+```ruby
+  def self.where(detail)
+    rows = CSV.read(@@filename, headers: true)
+    key = detail.keys.first
+    value = detail.values.first
+
+    result = []
+    rows.each do |row|
+      # binding.pry
+      if row[key.to_s] == value.to_s
+        result << Name.new(row)
+      end
+    end
+    result
+  end
+```
+
+4. Create a new class method called `self.order` which will allow us to sort data based on a hash of input.
+  1. A use-case will look like `results = Name.order( { year: :asc } )`
+    1. This would sort our CSV file by year in ascending order.
+    2. What is the first row of data that comes back?
+  2. A use-case will look like `results = Name.order( { name: :desc } )`
+    1. This would sort our CSV file by name in descending order.
+    2. What is the first row of data that comes back?
+
+---
+
+Extensions / Discussions
+
+Students are welcome to explore the following additional work if this topic is especially interesting, but can otherwise be discussed as a classroom:
+
+1. How would you adapt your `.where` method to take multiple fields of data to match?
+  1. For example, we might call `results = Name.where( { name: "Ian", rank: "15" } )`
+2. How would you adapt your `.order` method to take multiple fields of data to sort?
+  1. For example, we might call `results = Name.order( { ethnicity: :asc, name: :descending } )`
+
+## Discussion
+
+There are other methods that our database library would build for us including the following. Discuss with your partner how you would build these:
+
+- select: takes a list of fields, and only populates Name objects with the fields you choose
+  - example:
+```ruby
+result = Name.select(["name", "rank"])
+p result.first
+#<Name:0x00007fa22cfe7dd0 @year=nil, @bio_gender=nil, @ethnicity=nil, @name="Ian", @count=nil, @rank="24">
+```
+- limit: takes an integer parameter and returns only that many objects, eg `Name.limit(10)`
+- average: takes a field name to average, returns a float, eg `Name.average("rank")`

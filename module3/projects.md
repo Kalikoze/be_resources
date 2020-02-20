@@ -8,9 +8,15 @@ layout: page
 * Focus on using this project as a playground for students to practice their processes.
 
 *Project kickoff*
-
+* Walk through the learning goals
+* Walk through technical requirements
+  - Endpoints should be namespaced
+  - Responses should be compliant with the JSON API spec.
+  - Data imported from CSVs - create a rake task
+* Walk through different endpoints (record, relationship, BI)
+* Talk through the spec harness and how to setup it up i.e. same directory as rails engine project
 * Give students a day-by-day breakdown of how to split their time.
-* Be sure to have the students struggle on an BI problem prior to the ActiveRecord class. They don't need to solve the problem but struggling will prime them to get the most out of the session.
+* Be sure to have the students struggle on an BI problem prior to the Advanced ActiveRecord class. They don't need to solve the problem but struggling will prime them to get the most out of the session.
 
 *TODO:*
 

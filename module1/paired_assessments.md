@@ -33,11 +33,26 @@ Instructors should use the Final from the previous cohort as the Mid Mod. A samp
 * 1904 
   * Mid Mod: Passengers and Vehicles
   * Final: Employees and Departments
-  
+* 1906 
+  * Mid Mod: Students and Courses 
+  * Final: Passengers and Vehicles
+* 1908
+  * Mid Mod: Employees and Departments
+  * Final: Students and Courses
+* 1909
+  * Mid Mod: Passengers and Vehicles
+  * Final: Employees and Departments
+* 1911
+  * Mid Mod: Employees and Departments
+  * Final: Students and Courses
+* 2001
+  * Mid Mod: Students and Courses
+  * Final: Passengers and Vehicles
+
 This rotation ensures that a repeater will have a different final each time.
 
 ### Grading
 
 Paired assessments will be graded on [this Rubric](/module1/paired_rubric.html)
 
-The Mid Module and Final Paired Assessment scores will be submitted by instructors to the private [Student Assessments repo](https://github.com/turingschool/student-assessments).
+The Mid Module and Final Paired Assessment scores will be submitted on the mod 1 tracking document within the Paired Assessments tab. 

@@ -2,7 +2,9 @@
 title: Introducing Hashes
 length: 120
 tags: ruby, hashes, data structures, key, value
+layout: page
 ---
+
 ## Agenda
 
 - Warm Up - 5 min

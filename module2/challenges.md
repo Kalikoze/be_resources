@@ -1,0 +1,16 @@
+---
+title: Independent Challenges
+layout: page
+---
+
+Students will complete two independent timed challenges throughout the mod:
+
+* Week 2: [Apollo 14](https://github.com/turingschool-projects/apollo_14), [Hogwarts](https://github.com/turingschool-examples/bloody_hogwarts)
+* Week 4: [Vending Machine Tracker](https://github.com/turingschool-projects/vending-machine-tracker)
+
+Students will also have access to [Day Hike](https://github.com/turingschool-projects/day_hike) through the Backend Curriculum Site as additional practice.
+
+Additional practice challenges: 
+  * [The Final Rose](https://github.com/turingschool-examples/the_final_rose) - Longer than an actual in class challenge, but could be good preparation before Week 4 challenge, or prep for the final. 
+  
+  

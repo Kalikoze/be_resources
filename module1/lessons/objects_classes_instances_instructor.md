@@ -2,6 +2,7 @@
 title: Objects, Classes, and Instances
 length: 180
 tags: ruby, object-oriented programming
+layout: page
 ---
 
 # Objects, Classes, and Instances

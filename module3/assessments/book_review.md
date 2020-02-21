@@ -32,8 +32,15 @@ Then I should see the book's info
 For that book I should see
 - Title
 - Author
-- Genres
-(Note: genres is referred to as "subject" in the book search response)
+- Publisher
+
+Example:
+Normal People by Sally Roony
+Published By:  Faber & Faber,
+               Hogarth,
+               Random House Large Print,
+               Knopf Canada
+
 I should also see:
 - This book has 2 reviews from the New York Times
   (Note: reviews are the "summary" in the book review response)

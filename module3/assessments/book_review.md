@@ -19,12 +19,12 @@ We will be using:
 
 We will be searching for a book and the New York Time's review summary of the book.
 
-__Important: Use the book title _Normal People_ or _The Man Who Saw Everything_ to ensure you get back a New York Time review summary__
+__Important: Use the book title _Normal People_ to ensure you get back a New York Time review summary__
 
 ```
 As a user
 When I visit "/"
-And I input "the man who saw everything" into the form
+And I input "Normal People" into the form
 (Note: Use the existing search form)
 And I click "Find Book"
 Then I should be on page "/search"
@@ -33,12 +33,12 @@ For that book I should see
 - Title
 - Author
 - Genres
-(Note: genres is referred to as "subjects" in the book search response)
+(Note: genres is referred to as "subject" in the book search response)
 I should also see:
 - This book has 2 reviews from the New York Times
   (Note: reviews are the "summary" in the book review response)
-- Review 1: ""The Man Who Saw Everything,"" which was longlisted for the Booker Prize, looks at masculinity through the perspective of a young historian who sneers at "authoritarian old men.""
-Review Publication Date: 2019-10-09
-- Review 2: "Deborah Levy’s latest novel, "The Man Who Saw Everything," experiments with time travel, history and the endless complications of love."
-Review Publication Date: 2019-10-15
+- Review 1: "Rooney’s second novel tracks two gifted but troubled teenagers across four years of friendship and occasional romance."
+Review Publication Date: 2019-04-08
+- Review 2: "Like “Conversations With Friends,” “Normal People” also traces a young romance in Ireland."
+Review Publication Date: 2019-04-15
 ```

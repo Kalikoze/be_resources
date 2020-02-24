@@ -3,7 +3,7 @@ title: Book Review
 layout: page
 ---
 
-Clone down [book_review](https://github.com/turingschool-examples/book_review)
+Clone down the book_review repo: `https://github.com/turingschool-examples/book_review`
 
 We will be using:
 1. The Open Library API:
@@ -12,10 +12,10 @@ We will be using:
 
 
 2. New York Times Book API:
-  - Sign up for API key [here](https://developer.nytimes.com/get-started)
+  - Sign up for API key here: `https://developer.nytimes.com/get-started`
   - Once logged in, register your app and select the Books API
   - Reviews - __search for reviews by book title endpoint__: `https://api.nytimes.com/svc/books/v3/reviews.json`
-  - [Books API Reviews Docs](https://developer.nytimes.com/docs/books-product/1/routes/reviews.json/get)
+  - Books API Reviews Docs: `https://developer.nytimes.com/docs/books-product/1/routes/reviews.json/get`
 
 We will be searching for a book and the New York Time's review summary of the book.
 

@@ -30,11 +30,7 @@ Students in the BE program learn the basics of BE web development. These skills 
 
 ### M4: JavaScript & Collaboration
 
-* Independent Project: FE JavaScript
-* Paired Project: BE JavaScript
+* Independent Project: BE JavaScript (Building an Express API and Using an ORM to Connect to a Database)
+* Paired Project: BE JavaScript (Option to Build a MicroService or Build a Frontend to Connect with Basic API)
 * Group Project: BE Development with a FE Team
-* Independent Final: Take Home Challenge (?)
-
-
-
-
+* Independent Final: Take Home Challenge

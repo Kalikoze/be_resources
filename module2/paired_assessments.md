@@ -8,7 +8,7 @@ layout: page
 Students will participate in a mid-module assessment ("mid-mod") that does NOT count towards promotion. It is simply a checkpoint progress indicator of which concepts each student has learned and is able to apply. Students are encouraged to focus mentoring and pairing sessions around topics where they did not perform adequately in the mid-mod.
 
 ### Option 1
-** Empty for students to setup early: [B2 Mid Mod](https://github.com/turingschool-examples/b2-mid-mod)
+* Empty for students to setup early: [B2 Mid Mod](https://github.com/turingschool-examples/b2-mid-mod)
   - [Movie Tracker Stories](https://docs.google.com/document/d/134eJDgubFdBqxsaBRicdBVypxRGF15pjqh1UctqoVXw/edit?usp=sharing)  for Instructors to send out at the time of Assessment
   
 ### Option 2

@@ -5,7 +5,11 @@ layout: page
 
 Students will complete two independent timed challenges throughout the mod:
 
-## Week 2: [Apollo 14](https://github.com/turingschool-projects/apollo_14), [Hogwarts](https://github.com/turingschool-examples/bloody_hogwarts), [Make It Work](https://github.com/turingschool-examples/make_it_work)
+## Week 2
+- [Apollo 14](https://github.com/turingschool-projects/apollo_14)
+- [Hogwarts](https://github.com/turingschool-examples/bloody_hogwarts)
+- [Make It Work](https://github.com/turingschool-examples/make_it_work)
+
 ## Week 4
 - [Vending Machine Tracker](https://github.com/turingschool-projects/vending-machine-tracker)
 - [Order Up]()

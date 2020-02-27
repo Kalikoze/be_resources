@@ -18,21 +18,21 @@ Students will participate in a mid-module assessment ("mid-mod") that does NOT c
 All students will take a final assessment. Again, students will be given 3 hours to complete the assessment.
 
 ### Option 1
-** [Field Trip](https://github.com/turingschool/field_trip) - This repo has the user stories in it. Do not send this out ahead of time.
+* [Field Trip](https://github.com/turingschool/field_trip) - This repo has the user stories in it. Do not send this out ahead of time.
 
 ### Option 2
-** Repo to send out early: [Seattle Grace](https://github.com/turingschool-examples/seattle_grace)
+* Repo to send out early: [Seattle Grace](https://github.com/turingschool-examples/seattle_grace)
   - [Seattle Grace Stories](https://docs.google.com/document/d/145bAL6_VdodvXr0fJ-HM71FsCsFhUWjUNoJESO78RP8/edit?usp=sharing) for Instructors to send out at teh time of Assessment
 
 ## Final Evaluation Retake
 If a student does not pass the original Assessment, they will be asked to do a retake. The retake will follow the theme of the evaluation they had done before, but with slightly different user stories. Again, students will be given 3 hours to complete the assessment.
 
 ### Option 1
-** Field Trip Retake - students should delete their original assessment and refork the Field trip repo from above, but send out [this gist](https://gist.github.com/megstang/64ab9c82e76fac195f1f901a8372bb23) for new stories. 
+* Field Trip Retake - students should delete their original assessment and refork the Field trip repo from above, but send out [this gist](https://gist.github.com/megstang/64ab9c82e76fac195f1f901a8372bb23) for new stories. 
 
 
 ### Option 2
-** Seattle Grace Retake - In progress
+* Seattle Grace Retake - In progress
 
 
 ## Rubric

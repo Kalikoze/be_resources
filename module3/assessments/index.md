@@ -17,6 +17,7 @@ layout: page
 
 * [Amypode](/module3/assessments/amypode.html)
 * [Giphy](/module3/assessments/giphy.html)
+* [Munchies](/module3/assessments/munchies.md)
 
 ## Assessment Reminders
 

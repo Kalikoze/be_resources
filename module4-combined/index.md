@@ -5,7 +5,7 @@ layout: page
 
 ### [Mod4 History](https://docs.google.com/document/d/1pHshBwLIuNUW-2mpW9ZJlawE6GHUgXDrOlo8jRVW_Ok/edit)
 
-### [Pre-Module Checklist](/module4-combined/pre_module.html)
+### [Pre-Module Checklist](/module4-combined/pre_module)
 
 ### [Supporting Students](/module4-combined/supporting_students.html)
 ### [Intro To Mod 4](/module4-combined/intro_to_mod_4.html)

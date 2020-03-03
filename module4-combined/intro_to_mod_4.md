@@ -1,4 +1,7 @@
-## Intro To Mod 4
+---
+title: Intro To Mod 4
+layout: page
+---
 
 ### Introductions (5 min)
 - welcome students to the mod
@@ -11,9 +14,9 @@
 - Discuss icebreaker question/do activity
 
 ### Overview of Mod 4 (5 min)
-- Mission/Learning goals of mod 4
+- Mod 4 has changed!
 - New Format
-  - New format i.e. combined cohort, new project format, daily and weekly rituals
+  - combined cohort, new project format, daily and weekly rituals
   - Emphasis on:
     - interview prep and job hunt
     - habits, processes, refining knowledge i.e. workflow, project managment, time management, organization etc.

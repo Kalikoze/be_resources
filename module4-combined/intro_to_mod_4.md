@@ -4,22 +4,22 @@ layout: page
 ---
 
 ### Introductions (5 min)
-- welcome students to the mod
+- Welcome students to the mod
 - Instructor introductions
-  - name
-  - brief intro (1 min about how you started teaching at Turing)
+  - Name
+  - Brief intro (1 min about how you started teaching at Turing)
 
 ### Icebreaker (10 min)
-- students get into groups of 3-4 (preferably cross-cohort)
+- Students get into groups of 3-4 (preferably cross-cohort)
 - Discuss icebreaker question/do activity
 
 ### Overview of Mod 4 (5 min)
 - Mod 4 has changed!
 - New Format
-  - combined cohort, new project format, daily and weekly rituals
+  - Combined cohort, new project format, daily and weekly rituals
   - Emphasis on:
-    - interview prep and job hunt
-    - habits, processes, refining knowledge i.e. workflow, project managment, time management, organization etc.
+    - Interview prep and job hunt
+    - Habits, processes, refining knowledge i.e. workflow, project managment, time management, organization etc.
 
 ### Review Pre-work (10 min)
 - http://mod4.turing.io/lessons/intermission-work.html
@@ -28,9 +28,9 @@ layout: page
 - Give students a few minutes to review the pre-work on their own
 - Have students think through how they will spend their intermission week.
   - Are you traveling?
-  - Do you have any previously schedule events/appoinments?
-  - Will you front load your week with pre-work and have a few days to relax or will you spend a few hours working every day?
-- Have students add events to their calendar or day planner that correspond to how they will spend your time. i.e.
+  - Do you have any previously schedule events/appointments?
+  - Will you front-load your week with pre-work and have a few days to relax or will you spend a few hours working every day?
+- Have students add events to their calendar or day planner that correspond to how they will spend their time. i.e.
   - M-F 9am - 10am Coding time
   - Tuesday - 2pm - 4pm Career Journaling   
 - Let students know we will revisit this calendar during week 1

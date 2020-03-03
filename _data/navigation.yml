@@ -11,6 +11,8 @@ toc:
         url: /module3
       - page: Module 4
         url: /module4
+      - page: Combined Module 4
+        url: /module4-combined
   - title: Other Resources
     subfolderitems:
       - page: Student Policies

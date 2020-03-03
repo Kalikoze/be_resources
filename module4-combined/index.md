@@ -8,7 +8,7 @@ layout: page
 ### [Pre-Module Checklist](/module4-combined/pre_module)
 
 ### [Supporting Students](/module4-combined/supporting_students)
-
+### [Intro To Mod 4](/module4-combined/intro_to_mod_4)
 ### [Lessons](/module4-combined/lessons)
 
 ### [Projects](/module4-combined/projects)

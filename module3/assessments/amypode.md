@@ -8,7 +8,7 @@ An antipode is the point on the planet that is diametrically opposite. You will 
 The endpoint should follow this format:
 
 ```
-/api/v1/antipode?location=<start_location_city_name>
+GET /api/v1/antipode?location=<start_location_city_name>
 ```
 
 You will use the Amypode API to determine the antipode city for Hong Kong.

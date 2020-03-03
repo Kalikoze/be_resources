@@ -28,9 +28,9 @@ layout: page
 - Give students a few minutes to review the pre-work on their own
 - Have students think through how they will spend their intermission week.
   - Are you traveling?
-  - Do you have any previously schedule events/appointments?
+  - Do you have any previously scheduled events/appointments?
   - Will you front-load your week with pre-work and have a few days to relax or will you spend a few hours working every day?
 - Have students add events to their calendar or day planner that correspond to how they will spend their time. i.e.
   - M-F 9am - 10am Coding time
   - Tuesday - 2pm - 4pm Career Journaling   
-- Let students know we will revisit this calendar during week 1
+- Let students know they will be revisiting this calendar during week 1

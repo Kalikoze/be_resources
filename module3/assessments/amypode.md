@@ -33,19 +33,17 @@ Your response format should be similar to the format below:
 
 ```
 {
-    "data": [
-        {
-            "id": "1",
-            "type": "antipode",
-            "attributes": {
-                "location_name": "Antipode City Name",
-                "forecast": {
-                    "summary": "Mostly Cloudy,
-                    "current_temperature": "72",
-                                },
-            "search_location": "Hong Kong"
-            }
+    "data": {
+        "id": "1",
+        "type": "antipode",
+        "attributes": {
+            "location_name": "Antipode City Name",
+            "forecast": {
+                "summary": "Mostly Cloudy,
+                "current_temperature": "72",
+                            },
+        "search_location": "Hong Kong"
         }
-    ]
+    }
 }
 ```

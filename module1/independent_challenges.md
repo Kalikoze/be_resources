@@ -78,7 +78,8 @@ These challenges focus on a single problem or task and typically require one cla
 ## Week 1
 The week 1 challenge is designed to assess students understanding of topics covered in Mod0 and week 1.  Given partway through the first week, it is also our first major data point on how students are doing technically and can help guide pairings for the paired project.
 
-* [School](https://github.com/turingschool/school_challenge)
+* [School](https://github.com/turingschool/school_challenge) - 2001
+* [Restaurant](https://github.com/turingschool/restaurant) - 2003
 
 ## Week 2
 

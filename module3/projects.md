@@ -27,6 +27,29 @@ layout: page
 * Create a project using [Conveyor Belt](http://conveyorbelt.herokuapp.com/)
   * Current [project board template](https://github.com/turingschool-examples/brownfield-of-dreams/projects/1)
 
+* Students will be asked to explore and setup continuous integration with Travis CI. Here is an example of what a working `.travis.yml` configuration should look like.
+
+```yml
+#Example of .travis.yml
+langauge: ruby
+rbenv:
+  - 2.4.1
+
+addons:
+  postgresql: 9.6
+  chrome: stable
+
+dist: trusty
+
+before_script:
+  - rm -r spec/cassettes
+
+script:
+  - yarn add stimulus
+  - bundle exec rails db:{create,migrate} RAILS_ENV=test
+  - bundle exec rspec
+```
+
 *TODO:*
 
 * Add eval suggestions

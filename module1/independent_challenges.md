@@ -54,6 +54,10 @@ Independent Challenges are listed below by week, one of which is marked "public"
 * 2001
   * Week 5: Market
   * Week 6: Museo
+  
+* 2003
+  * Week 5: Museo
+  * Week 6: Pantry
 
   
 This rotation means that any student who repeats will not be given the same final twice
@@ -74,7 +78,8 @@ These challenges focus on a single problem or task and typically require one cla
 ## Week 1
 The week 1 challenge is designed to assess students understanding of topics covered in Mod0 and week 1.  Given partway through the first week, it is also our first major data point on how students are doing technically and can help guide pairings for the paired project.
 
-* [School](https://github.com/turingschool/school_challenge)
+* [School](https://github.com/turingschool/school_challenge) - 2001
+* [Restaurant](https://github.com/turingschool/restaurant) - 2003
 
 ## Week 2
 
@@ -82,14 +87,14 @@ The week 2 challenge is an intro to Object Oriented Programming. It will require
 
 * [Potluck](https://github.com/turingschool-examples/potluck) - practice
 * [Real Estate](https://github.com/turingschool/real_estate) - 1901, 1906, 1909, 2001
-* [OpenMic](https://github.com/turingschool/open_mic) - 1903, 1904, 1908, 1911
+* [OpenMic](https://github.com/turingschool/open_mic) - 1903, 1904, 1908, 1911, 2003
 
 ## Week 3
 
 The week 3 challenge will require students to build three classes that interact. It will also involve a more complex enumeration problem that can't be solved with a single enumerable. Students will also need to access a Hash.
 
 * [World Cup](https://github.com/turingschool-examples/world_cup) - practice
-* [Market Street Apartments](https://github.com/turingschool/market_st_apartments) - 1901, 1904, 1908, 1911
+* [Market Street Apartments](https://github.com/turingschool/market_st_apartments) - 1901, 1904, 1908, 1911, 2003
 * [TV Network](https://github.com/turingschool/tv_network) - 1903, 1906, 1909, 2001
 
 ## Week 4
@@ -98,7 +103,7 @@ The week 3 challenge will require students to build three classes that interact.
 
 * [Boat Rental](https://github.com/turingschool-examples/boat_rental) - practice
 * [Museum](https://github.com/turingschool/museum) - 1903, 1906, 1909, 2001
-* [Denver Public Library](https://github.com/turingschool/denver_public_library) - 1901, 1904, 1908, 1911
+* [Denver Public Library](https://github.com/turingschool/denver_public_library) - 1901, 1904, 1908, 1911, 2003
 
 ## Weeks 5 and 6
 

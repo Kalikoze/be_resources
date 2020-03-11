@@ -22,7 +22,7 @@ layout: page
     - Habits, processes, refining knowledge i.e. workflow, project managment, time management, organization etc.
 
 ### Review Pre-work (10 min)
-- http://mod4.turing.io/lessons/intermission-work.html
+- [Prework](http://mod4.turing.io/lessons/intermission-work.html)
 
 ### Intermission Calendar (15 min)
 - Give students a few minutes to review the pre-work on their own

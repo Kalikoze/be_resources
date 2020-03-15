@@ -1,8 +1,6 @@
 ---
 title: Reading and Understanding Documentation: Group Discussion
-length: 30 mins
-module: 4
-tags: documentation, problem solving
+layout: page
 ---
 
 ### Notes for instructors:

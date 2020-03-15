@@ -95,7 +95,7 @@ Cons:
 
 - tunnel analogy, first-in-first-out (FIFO)
 
-![first in, first out](/lessons/cs/Dog-chased-in-play-tunnel.gif)
+![first in, first out](/module4-combined/lessons/Dog-chased-in-play-tunnel.gif)
 
 - queues can also store a "priority" level in the payload
 - airport check-in analogy, long line for economy check-in, short line for business class who get preferred attention

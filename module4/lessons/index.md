@@ -6,7 +6,16 @@ layout: page
 # Week 1
 
 - Intro & Questions
-- [reading and understanding documentation](/module4/lessons/reading_and_understanding_documentation.html)
+- Modules & Exporting
+- Solo Project Kickoff
+
+- [Intro to Express & Sequelize](/module4/lessons/express_and_sequelize.html)
+- JavaScript Testing
+
+- Async JavaScript & Promises
+- Node Fetch
+
+- Object-Oriented JavaScript
 
 
 # Week 2

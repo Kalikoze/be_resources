@@ -28,13 +28,13 @@ Individual Reflections (2-3 min)
   - What is challenging about reading the official documentation for a library or framework?
   - What are the benefits of utilizing the official documentation when you are learning something new?
 
-Group Discussion (7 min)
+Group Discussion (10 min)
   - As a group, discuss and share out answers to each question
   - Share the tips and tricks for utilizing official documentation
 
 Individual Exercise (7 min)
   - Drop the following message in the slack channel:
-  
+
     Practice applying the tips and tricks for reading official documentation. For the documentation linked below:
     1. Read the introduction on the home page and write down answers to the following questions.
       - What is the purpose of this framework?
@@ -45,3 +45,8 @@ Individual Exercise (7 min)
 Backend Students: [React docs](https://reactjs.org/)
 
 Front-end Students: [Rails docs](https://guides.rubyonrails.org/getting_started.html#what-is-rails-questionmark)
+
+Whole Group Share (5 min)
+  - As a group discuss the following questions:
+  1. What was helpful about approaching the documentation in this way?
+  2. What was challenging?

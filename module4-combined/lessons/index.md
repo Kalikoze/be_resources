@@ -9,6 +9,9 @@ layout: page
 
 # Other Topics
 
+- [reading and understanding documentation](/module4-combined/lessons/reading_and_understanding_documentation.html)
+
+
 # CS Topics
 
 Week 1:

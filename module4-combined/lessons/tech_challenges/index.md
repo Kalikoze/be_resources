@@ -3,6 +3,10 @@ title: Technical Interview Challenges
 layout: page
 ---
 
+Gist to copy for their reflections before starting a challenge:
+https://gist.github.com/iandouglas/5e46dd31740b5ae7851e8647bfc42290
+
+
 Linked List challenge
 - [student prompt](./linked_list_student.html)
 - [student submission form]() (google survey)

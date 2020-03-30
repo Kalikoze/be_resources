@@ -16,7 +16,7 @@ The documentation for the API can be found here: https://fdc.nal.usda.gov/api-gu
 
 Make sure you take the time to read the documentation carefully. Remember, we want to get a list of foods that contain an ingredient.
 
-Complete the following user story. Be sure to TDD all of your work.
+Complete the following user story. Be sure to TDD all of your work. Commit your work every 15 minutes.
 
 ```
 As a user,

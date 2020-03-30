@@ -15,7 +15,7 @@ The documentation for the api can be found here: https://www.potterapi.com/#docu
 
 Make sure you take the time to read the documentation carefully. Remember, we want to get a list of characters from a certain house that are members of the Order of the Phoenix.
 
-Complete the following user story. Be sure to TDD all of your work.
+Complete the following user story. Be sure to TDD all of your work. Commit your work every 15 minutes.
 
 ```
 As a user,

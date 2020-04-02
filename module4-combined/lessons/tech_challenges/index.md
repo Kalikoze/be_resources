@@ -24,9 +24,9 @@ Sort challenge (coming soon)
 - [instructor walkthrough in Ruby](./sort_nstructor_ruby.html)
 
 Recursion challenge (roman numerals problem)
-- [student prompt](./recursion_student.html)
-- [instructor walkthrough in JS](./recursion_instructor_js.html)
-- [instructor walkthrough in Ruby](./recursion_instructor_ruby.html)
+- [student prompt](./recursion_roman_numerals_student.html)
+- [instructor walkthrough in JS](./recursion_roman_numerals_instructor_js.html)
+- [instructor walkthrough in Ruby](./recursion_roman_numerals_instructor_ruby.html)
 
 Recursion challenge (receipts problem)
 - [student prompt](./recursion_receipts_student.html)

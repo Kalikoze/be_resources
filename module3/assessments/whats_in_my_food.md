@@ -16,7 +16,7 @@ The documentation for the API can be found here: https://fdc.nal.usda.gov/api-gu
 
 Make sure you take the time to read the documentation carefully. Remember, we want to get a list of foods that contain an ingredient.
 
-Complete the following user story. Be sure to TDD all of your work.
+Complete the following user story. Be sure to TDD all of your work. Commit your work every 15 minutes.
 
 ```
 As a user,
@@ -25,7 +25,7 @@ And I fill in the search form with "sweet potatoes"
 (Note: Use the existing search form)
 And I click "Search"
 Then I should be on page "/foods"
-Then I should see a total of the number of items returned by the search. (26204 for sweet potatoes)
+Then I should see a total of the number of items returned by the search.
 Then I should see a list of ten foods that contain the ingredient "sweet potatoes"
 
 And for each of the foods I should see:

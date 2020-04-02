@@ -32,22 +32,37 @@ ROMAN_NUMERALS = {
   "IV" => 4,
   "I" => 1
 }
-# Next we will define the recursive case
+
+# every roman numeral is made up of a series of characters e.g. 8 => 5 + 1 + 1 + 1 => X I I I
+# we will need to build the roman numeral one character at a time
+# let's iterate over the hash of key, value pairs so we can compare the num to each
+# integer corresponding to a roman numeral character
 def to_roman(num)
-  # iterate through all of the values or integers in the hash
+  ROMAN_NUMERALS.map do |key, val|
+    # now we have access to each key value pair in the object as well as the num
+    puts key # roman numeral char
+    puts val # corresponding integer
+    puts num # original num
+  end
+end
+
+# # Next we will define the recursive case
+def to_roman(num)
+  # now that we are iterating through all of the values or integers in the hash
   # for each integer check to see if the num is larger than or equal to that integer
 
   # if the num is larger than the integer,
     # return that corresponding roman numeral
-    # we also want to call the to_roman function again, this time passing in the num minus the integer
+    # we also want to call the to_roman method again, this time passing in the num minus the integer
 
   # else if the number is not larger than the integer,
     # continue iterating through the integers until you get to an integer that is smaller than the num
     # once you do repeat the if statement above i.e. return that corresponding
     # roman numeral and call the to_roman function again passing in the num minus the integer
-    ROMAN_NUMERALS.values.each do |int|
-      if num >= int
-        return ROMAN_NUMERALS.key(int) + to_roman(num - int)
+    # starting the cycle again but this time with a smaller number
+    ROMAN_NUMERALS.map do |key, val|
+      if num >= val
+        return key + to_roman(num - val)
       end
     end
   end
@@ -55,18 +70,50 @@ end
 
 # Now that we have a recursive case, we need to define the base case to stop calling our function recursively
 # Because the smallest roman numeral is 1 we cannot evaluate any number less than 1
-# if the value of num is less than 1 return an empty string
+# if the value of num is or becomes less than 1 return an empty string
+
 def to_roman(num)
   if num < 1
     return ''
-  else
-    ROMAN_NUMERALS.values.map do |int|
-      if num >= int
-        return ROMAN_NUMERALS.key(int) + to_roman(num - int)
-      end
+  end
+
+  ROMAN_NUMERALS.map do |key, val|
+    if num >= val
+      return key + to_roman(num - val)
     end
   end
 end
+
+# the full solution looks like this:
+
+ROMAN_NUMERALS = {
+  "M" => 1000,
+  "CM" => 900,
+  "D" => 500,
+  "CD" => 400,
+  "C" => 100,
+  "XC" => 90,
+  "L" => 50,
+  "XL" => 40,
+  "X" => 10,
+  "IX" => 9,
+  "V" => 5,
+  "IV" => 4,
+  "I" => 1
+}
+
+def to_roman(num)
+  if num < 1
+    return ''
+  end
+
+  ROMAN_NUMERALS.map do |key, val|
+    if num >= val
+      return key + to_roman(num - val)
+    end
+  end
+end
+
 
 puts to_roman(128)   # should return "CXXVIII"
 puts to_roman(2000)  # should return "MM"

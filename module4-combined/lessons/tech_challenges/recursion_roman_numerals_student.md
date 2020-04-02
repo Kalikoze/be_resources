@@ -15,14 +15,14 @@ C=100, XC=90, L=50, XL=40,
 X=10, IX=9, V=5, IV=4, I=1
 */
 
-function to_roman(num) {
+function toRoman(num) {
   // your code goes here
 }
 
-console.log(to_roman(128));  // should return "CXXVIII"
-console.log(to_roman(2000)); // should return "MM"
-console.log(to_roman(2017)); // should return "MMXVII"
-console.log(to_roman(1999)); // should return "MCMXCIX"
+console.log(toRoman(128));  // should return "CXXVIII"
+console.log(toRoman(2000)); // should return "MM"
+console.log(toRoman(2017)); // should return "MMXVII"
+console.log(toRoman(1999)); // should return "MCMXCIX"
 ```
 
 ## ruby starter

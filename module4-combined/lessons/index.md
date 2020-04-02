@@ -26,8 +26,7 @@ Week 3:
 - [Insertion Sort](/module4-combined/lessons/cs_insertion_sort.html)
 
 Week 4:
-- [Recursion Group 1](/module4-combined/lessons/cs_recursion_group_1.html)
-- [Recursion Group 2](/module4-combined/lessons/cs_recursion_group_2.html)
+- [Recursion](/module4-combined/lessons/cs_recursion.html)
 
 Week 5:
 - [Speeding Up Challenge Analysis](/module4-combined/lessons/cs_challenge_analysis.html)

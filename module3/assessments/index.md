@@ -8,6 +8,8 @@ layout: page
 * [Order of the Phoenix](/module3/assessments/order_of_the_phoenix.html)
 * [What's in my Food?](/module3/assessments/whats_in_my_food.html)
 
+* Additional practice similar to mid-mod [Parks Finder](https://github.com/turingschool-examples/parks_finder)
+
 ## Week 4 Practice
 
 * [Nearest Fuel Station](/module3/assessments/nearest_fuel_station.html)

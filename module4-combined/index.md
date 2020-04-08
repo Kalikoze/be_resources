@@ -15,6 +15,8 @@ layout: page
 
 ### [Interview Prep](/module4-combined/interview_prep)
 
+### [Final Evaluation Rubric](/module4-combined/final_eval_rubric.html)
+
 ### [Graduation](/module4-combined/graduation)
 
 

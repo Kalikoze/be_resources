@@ -1,4 +1,8 @@
-# Final Evaluation Rubric
+---
+title: Fina Evaluation Rubric
+layout: page
+---
+
 ## Code Challenge
 
 - 3 - Student is provides a working solution within the time allotted and their process/approach is clear to the interviewer

@@ -1,5 +1,5 @@
 ---
-title: Fina Evaluation Rubric
+title: Final Evaluation Rubric
 layout: page
 ---
 

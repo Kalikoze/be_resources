@@ -35,7 +35,7 @@ If a student does not pass the original Assessment, they will be asked to do a r
 
 
 ### Option 2
-* Seattle Grace Retake - In progress
+* Seattle Grace Retake - students should delete their original assessment and refork the Field trip repo from above, but send out [these stories](https://docs.google.com/document/d/1I_O-NMc60PB99TLLFGpSXtc7dEGMQIYZouQ-xaVxViw/edit?usp=sharing)
 
 
 ## Rubric

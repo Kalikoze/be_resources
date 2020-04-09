@@ -10,9 +10,12 @@ Students will participate in a mid-module assessment ("mid-mod") that does NOT c
 ### Option 1
 * Empty for students to setup early: [B2 Mid Mod](https://github.com/turingschool-examples/b2-mid-mod)
   - [Movie Tracker Stories](https://docs.google.com/document/d/134eJDgubFdBqxsaBRicdBVypxRGF15pjqh1UctqoVXw/edit?usp=sharing)  for Instructors to send out at the time of Assessment
+
+  
   
 ### Option 2
-
+* Empty for students to setup early: [B2 Mid Mod](https://github.com/turingschool-examples/b2-mid-mod)
+  - [Railer Coaster](https://docs.google.com/document/d/1vCAdgkndzD5gLCoMBg91N1W3RQ4mfLAkSOCQHLmNa-s/edit?usp=sharing) for Instructors to send out at the time of the assessment
 
 ## Final Evaluation
 All students will take a final assessment. Again, students will be given 3 hours to complete the assessment.

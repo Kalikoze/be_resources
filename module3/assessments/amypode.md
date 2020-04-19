@@ -3,11 +3,11 @@ title: Amypode
 layout: page
 ---
 
-### Setup
+**Setup**
 
-Create branch off of your Sweater Weather project called `final_assessment`. As you work, you should commit to this branch every 15 minutes
+Create a branch off of your Sweater Weather project called `final_assessment`. As you work, you should commit to this branch every 15 minutes
 
-### Assignment
+**Assignment**
 
 An antipode is the point on the planet that is diametrically opposite. You will create an API endpoint that takes a starting location and returns it's anitpode city along with the current weather temperature and summary for the antipode city.
 
@@ -42,9 +42,9 @@ Your response format should be similar to the format below:
 }
 ```
 
-**Note:** Most places on Earth have an antipode in the ocean. Use "Hong Kong" as a test city. It's antipode is somewhere in Argentina.
+__Note:__ Most places on Earth have an antipode in the ocean. Use "Hong Kong" as a test city. It's antipode is somewhere in Argentina.
 
-### APIs
+**APIs**
 
 You are expected to consume the following APIs:
 

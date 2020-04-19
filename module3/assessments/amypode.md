@@ -51,6 +51,8 @@ You are expected to consume the following APIs:
 * Google geocoding API: https://developers.google.com/maps/documentation/geocoding/start 
     * Use Geocoding to get lat/long coordinates from a city name
     * Use Reverese Geocoding to get a city name from lat/long coordinates
+* Open Weather Map API: https://openweathermap.org/api
+    * Use to get weather for a city
 * Amypode API
     * Use to get antipode coordinates from lat/long coordinates
     * Sample Request: [http://amypode.herokuapp.com/api/v1/antipodes?lat=27&long=-82]()

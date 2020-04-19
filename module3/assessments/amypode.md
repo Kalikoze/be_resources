@@ -42,7 +42,7 @@ Your response format should be similar to the format below:
 }
 ```
 
-__Note:__ Most places on Earth have an antipode in the ocean. Use "Hong Kong" as a test city. It's antipode is somewhere in Argentina.
+__Note:__ Most places on Earth have an antipode in the ocean. Use "Hong Kong" as a test city. Its antipode is somewhere in Argentina.
 
 **APIs**
 

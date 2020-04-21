@@ -18,7 +18,7 @@ Your endpoint should follow this format:
 Your API will return:
 - the end city
 - estimated travel time
-- the name and address of a restaurant serving that type cuisine that WILL BE OPEN at your estimated time of arrival. 
+- the name and address of a restaurant serving THE SPECIFIED TYPE of cuisine that WILL BE OPEN at your estimated time of arrival. 
 - the forecast at your time of arrival
 
 Your response should be similar to the format below:

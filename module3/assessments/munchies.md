@@ -44,14 +44,14 @@ Your response should be similar to the format below:
 ## APIs
 
 1. Google directions API
-  - to find out how long it will take to travel from your start location to your end location.
-  - https://developers.google.com/maps/documentation/directions/start
+    - to find out how long it will take to travel from your start location to your end location.
+    - https://developers.google.com/maps/documentation/directions/start
 1. Yelp Fusion API
-  - to find the name and address of a restaurant in your end location that serves a SPECIFIC CUISINE TYPE THAT WILL BE OPEN at the time of arrival.
-  - https://www.yelp.com/developers/documentation/v3/business_search
+    - to find the name and address of a restaurant in your end location that serves a SPECIFIC CUISINE TYPE THAT WILL BE OPEN at the time of arrival.
+    - https://www.yelp.com/developers/documentation/v3/business_search
 1. Open Weather Map API
-  - to find the forecast in the end location at the time of arrival.
-  - https://openweathermap.org/api
+    - to find the forecast in the end location at the time of arrival.
+    - https://openweathermap.org/api
 
 
 ## Technical notes

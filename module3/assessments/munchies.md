@@ -5,7 +5,7 @@ layout: page
 
 ## Setup
 
-Create a branch off of your Sweater Weather project called final_assessment. As you work, you should commit to this branch every 15 minutes
+Create a branch off of your Sweater Weather project called `final_assessment`. As you work, you should commit to this branch every 15 minutes
 
 ## Assignment
 

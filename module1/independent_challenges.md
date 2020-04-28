@@ -59,6 +59,10 @@ Independent Challenges are listed below by week, one of which is marked "public"
   * Week 5: Food Truck Event
   * Week 6: Pantry
 
+* 2005
+  * Week 5: Pantry
+  * Week 6: Market
+
   
 This rotation means that any student who repeats will not be given the same final twice
 
@@ -78,7 +82,7 @@ These challenges focus on a single problem or task and typically require one cla
 ## Week 1
 The week 1 challenge is designed to assess students understanding of topics covered in Mod0 and week 1.  Given partway through the first week, it is also our first major data point on how students are doing technically and can help guide pairings for the paired project.
 
-* [School](https://github.com/turingschool/school_challenge) - 2001
+* [School](https://github.com/turingschool/school_challenge) - 2001, 2005
 * [Restaurant](https://github.com/turingschool/restaurant) - 2003
 
 ## Week 2
@@ -86,8 +90,8 @@ The week 1 challenge is designed to assess students understanding of topics cove
 The week 2 challenge is an intro to Object Oriented Programming. It will require students to build two classes that interact, as well as use an enumerable.
 
 * [Potluck](https://github.com/turingschool-examples/potluck) - practice
-* [Real Estate](https://github.com/turingschool/real_estate) - 1901, 1906, 1909, 2001
 * [OpenMic](https://github.com/turingschool/open_mic) - 1903, 1904, 1908, 1911
+* [Real Estate](https://github.com/turingschool/real_estate) - 1901, 1906, 1909, 2001, 2005
 * [Shopping Cart](https://github.com/turingschool/shopping_cart) - 2003
 
 ## Week 3
@@ -96,7 +100,7 @@ The week 3 challenge will require students to build three classes that interact.
 
 * [World Cup](https://github.com/turingschool-examples/world_cup) - practice
 * [Market Street Apartments](https://github.com/turingschool/market_st_apartments) - 1901, 1904, 1908, 1911, 2003
-* [TV Network](https://github.com/turingschool/tv_network) - 1903, 1906, 1909, 2001
+* [TV Network](https://github.com/turingschool/tv_network) - 1903, 1906, 1909, 2001, 2005
 
 ## Week 4
 
@@ -104,7 +108,7 @@ The week 3 challenge will require students to build three classes that interact.
 
 * [Boat Rental](https://github.com/turingschool-examples/boat_rental) - practice
 * [Colorado Lotttery](https://github.com/turingschool-examples/colorado_lottery_2003) - practice
-* [Museum](https://github.com/turingschool/museum) - 1903, 1906, 1909, 2001
+* [Museum](https://github.com/turingschool/museum) - 1903, 1906, 1909, 2001, 2005
 * [Denver Public Library](https://github.com/turingschool/denver_public_library) - 1901, 1904, 1908, 1911, 2003
 
 ## Weeks 5 and 6

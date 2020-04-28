@@ -56,7 +56,7 @@ Independent Challenges are listed below by week, one of which is marked "public"
   * Week 6: Museo
   
 * 2003
-  * Week 5: Museo
+  * Week 5: Food Truck Event
   * Week 6: Pantry
 
   
@@ -87,7 +87,8 @@ The week 2 challenge is an intro to Object Oriented Programming. It will require
 
 * [Potluck](https://github.com/turingschool-examples/potluck) - practice
 * [Real Estate](https://github.com/turingschool/real_estate) - 1901, 1906, 1909, 2001
-* [OpenMic](https://github.com/turingschool/open_mic) - 1903, 1904, 1908, 1911, 2003
+* [OpenMic](https://github.com/turingschool/open_mic) - 1903, 1904, 1908, 1911
+* [Shopping Cart](https://github.com/turingschool/shopping_cart) - 2003
 
 ## Week 3
 
@@ -102,6 +103,7 @@ The week 3 challenge will require students to build three classes that interact.
 The week 3 challenge will require students to build three classes that interact. Students must think algorithmically to build an Object Oriented solution that solves the problem. Students will also be required to build a hash.
 
 * [Boat Rental](https://github.com/turingschool-examples/boat_rental) - practice
+* [Colorado Lotttery](https://github.com/turingschool-examples/colorado_lottery_2003) - practice
 * [Museum](https://github.com/turingschool/museum) - 1903, 1906, 1909, 2001
 * [Denver Public Library](https://github.com/turingschool/denver_public_library) - 1901, 1904, 1908, 1911, 2003
 
@@ -112,8 +114,10 @@ The week 5 and 6 challenges are a test of a student's knowledge of OOP and Ruby 
 The week 5 challenge will be a practice for the final in week 6.
 
 * [Reunion](https://github.com/turingschool-examples/reunion) - practice
+* [Museo](https://github.com/turingschool/museo) - practice
 * [Market](https://github.com/turingschool/market) - 1901, 1904, 1908
 * [Pantry](https://github.com/turingschool/pantry) - 1903, 1906
-* [Museo](https://github.com/turingschool/museo) 
+* [Food Truck Event](https://github.com/turingschool/food_truck_event) - 2003
+
 
 IdeaBank for possible future challenges: https://github.com/karan/Projects#classes

@@ -14,22 +14,13 @@ layout: page
 
 # CS Topics
 
-Week 1:
+- [Approaching Tech Challenges](/module4-combined/lessons/approaching_tech_challenges.html)
+- [Big O](/module4-combined/lessons/cs_big_o.html)
 - [Linked Lists](/module4-combined/lessons/cs_linked_lists.html)
 - [Arrays, Stacks, Queues](/module4-combined/lessons/cs_arrays_stacks_queues.html)
-
-Week 2:
-- [Big O](/module4-combined/lessons/cs_big_o.html)
-
-Week 3:
 - [Merge Sort](/module4-combined/lessons/cs_merge_sort.html)
 - [Insertion Sort](/module4-combined/lessons/cs_insertion_sort.html)
-
-Week 4:
 - [Recursion](/module4-combined/lessons/cs_recursion.html)
-
-Week 5:
-- [Speeding Up Challenge Analysis](/module4-combined/lessons/cs_challenge_analysis.html)
 
 # Tech Challenges
 

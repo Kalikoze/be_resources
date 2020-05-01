@@ -16,35 +16,35 @@ There are only a handful of "types" of technical challenges, and the more you pr
 Some challenges will only touch on one of these elements; some challenges will utilize several
 
 1. Searching
-  1. Look for key words in the problem that say things like "look for" or "find"
-  2. Is this actually looking for you to implement a searching algorithm, though, or is this just pattern recognition?
+    1. Look for key words in the problem that say things like "look for" or "find"
+    2. Is this actually looking for you to implement a searching algorithm, though, or is this just pattern recognition?
   
 2. Sorting
-  1. These kinds of problems will have keywords about "organzing" data in some way
-  2. Again, are they looking for you to implement/use a sorting algorithm of some kind, or are they just asking you to put data into a new data structure of some kind?
+    1. These kinds of problems will have keywords about "organzing" data in some way
+    2. Again, are they looking for you to implement/use a sorting algorithm of some kind, or are they just asking you to put data into a new data structure of some kind?
 
 3. Pattern Recognition
-  1. Similar to "searching" problems, these may also use a "find" keyword in their description, so you need to discern a little deeper what it is they're asking you to do
-  2. These kinds of problems usually come with lots of different kinds of examples, and may utilize some elements of "searching" problems in order to determine if a pattern exists.
-  3. These kinds of problems can, but not always, utilize recursion
+    1. Similar to "searching" problems, these may also use a "find" keyword in their description, so you need to discern a little deeper what it is they're asking you to do
+    2. These kinds of problems usually come with lots of different kinds of examples, and may utilize some elements of "searching" problems in order to determine if a pattern exists.
+    3. These kinds of problems can, but not always, utilize recursion
   
 4. Grid problems
-  1. The description will clearly indicate something about the problem is in a 2-dimensional space of some sort, commonly a grid of some sort, a maze, a game, or some sort of navigation.
-  2. Try to think of this as rows/columns, or x/y coordinates
-  3. Most commonly implemented using an array of arrays
-  4. Recursion works great for mazes where you might have to backtrack and take a different route
+    1. The description will clearly indicate something about the problem is in a 2-dimensional space of some sort, commonly a grid of some sort, a maze, a game, or some sort of navigation.
+    2. Try to think of this as rows/columns, or x/y coordinates
+    3. Most commonly implemented using an array of arrays
+    4. Recursion works great for mazes where you might have to backtrack and take a different route
 
 5. Math
-  1. Math is commonly found in many tech challenges, and might just be simpler math operations like addition, multiplication and so on
-  2. It's more rare that you'll be asked to do anything outside of middle school algebra
-  3. If you have a math background (especially a college/university degree), you might get more advanced math problems
+    1. Math is commonly found in many tech challenges, and might just be simpler math operations like addition, multiplication and so on
+    2. It's more rare that you'll be asked to do anything outside of middle school algebra
+    3. If you have a math background (especially a college/university degree), you might get more advanced math problems
   
 6. Language API knowledge
-  1. These kinds of problems are really here to just test your inner knowledge of a programming language.
-  2. Have you used it enough to know of common quirks, or things your language doesn't do particularly well?
+    1. These kinds of problems are really here to just test your inner knowledge of a programming language.
+    2. Have you used it enough to know of common quirks, or things your language doesn't do particularly well?
   
 7. Optimization
-  1. Some problems will present code or a working algorithm that you must enhance to work faster, more efficiently, use less memory or some combination of all of these.
+    1. Some problems will present code or a working algorithm that you must enhance to work faster, more efficiently, use less memory or some combination of all of these.
   
 
 ## Data Structures within Code Challenges
@@ -66,15 +66,15 @@ Visit [bigocheatsheet.com](https://bigocheatsheet.com) and scroll down to the li
 Try to learn the following three things about each data structure:
 
 1. What is this data structure really good for?
-  1. why was this invented in the first place?
-  2. what was "missing" in computer science that this was deemed necessary?
-  3. what efficiencies can I make in my code by using this data structure?
+    1. why was this invented in the first place?
+    2. what was "missing" in computer science that this was deemed necessary?
+    3. what efficiencies can I make in my code by using this data structure?
 2. What bad things exist about this data structure?
-  1. nothing is perfect, everything has drawbacks
-  2. what are some downsides to choosing this data structure?
-  3. eg, does it use a lot of RAM, can it only use RAM in a particular way, is it "expensive" in processing time to access data?
+    1. nothing is perfect, everything has drawbacks
+    2. what are some downsides to choosing this data structure?
+    3. eg, does it use a lot of RAM, can it only use RAM in a particular way, is it "expensive" in processing time to access data?
 3. Where is this data structure most commonly used?
-  1. knowing the purpose of a data structure can help you pick "the best tool for the job"
+    1. knowing the purpose of a data structure can help you pick "the best tool for the job"
   
 
 ## Problem Breakdown

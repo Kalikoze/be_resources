@@ -13,7 +13,7 @@ layout: page
 ## Week 4 Practice
 
 * [Nearest Fuel Station](/module3/assessments/nearest_fuel_station.html)
-* [Book Review](/module3/assessments/book_review.html)
+* [Book Review](/module3/assessments/book-review.html)
 
 ## Final
 

@@ -6,7 +6,6 @@ layout: page
 Students will complete two independent timed challenges throughout the mod:
 
 ## Week 2
-- [Hogwarts](https://github.com/turingschool-examples/bloody_hogwarts)
 - [Make It Work](https://github.com/turingschool-examples/make_it_work)
 - [Hogwarts Again](https://github.com/turingschool-examples/hogwarts_again)
   - Students should fork the above repo ahead of time, and then the instructor sends out [these stories](https://docs.google.com/document/d/1khty--ZC_3fWkJoseCobie-KniH5wajjlrhJON7UIH0/edit?usp=sharing) at the time of the assessment.
